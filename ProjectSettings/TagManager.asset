@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - DoorButton
+  - Box
   layers:
   - Default
   - TransparentFX
