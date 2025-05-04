@@ -1,4 +1,7 @@
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
+using System.Collections;
 
 public class PickupController : MonoBehaviour
 {
@@ -10,6 +13,8 @@ public class PickupController : MonoBehaviour
     // physics parameters
     [SerializeField] private float pickupRange = 5.0f;
     [SerializeField] private float pickupForce = 150.0f;
+
+    
 
     void Start()
     {
@@ -27,7 +32,9 @@ public class PickupController : MonoBehaviour
                 if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, pickupRange))
                 {
                     PickupObject(hit.transform.gameObject);
+                   
                 }
+               
             }
             else
             {
@@ -73,4 +80,6 @@ public class PickupController : MonoBehaviour
         heldObject = null;
 
     }
+
+    
 }

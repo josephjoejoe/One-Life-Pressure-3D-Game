@@ -6788,6 +6788,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   holdArea: {fileID: 1479875766}
+  pickupRange: 5
+  pickupForce: 150
 --- !u!1 &335976429
 GameObject:
   m_ObjectHideFlags: 0
@@ -11974,7 +11976,7 @@ Transform:
   m_GameObject: {fileID: 591603762}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.1, y: 1.89, z: 0}
+  m_LocalPosition: {x: -5.56, y: 16.19, z: 21.023}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -36681,9 +36683,9 @@ GameObject:
   - component: {fileID: 2031275777}
   - component: {fileID: 2031275776}
   - component: {fileID: 2031275779}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cube (35)
-  m_TagString: Untagged
+  m_TagString: Box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

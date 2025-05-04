@@ -8,6 +8,7 @@ public class ButtonDoorRaycast : MonoBehaviour
     [SerializeField] private string excludeLayerName = null;
 
     private OpenDoorButton raycastObject;
+    private PickupController raycastObject1;
 
     [SerializeField] private KeyCode openDoorKey = KeyCode.Mouse0;
 
@@ -16,7 +17,8 @@ public class ButtonDoorRaycast : MonoBehaviour
     private bool doOnce;
 
     private const string interactableTag = "DoorButton";
-    
+    private const string interactableTag1 = "Box";
+
 
 
     // Update is called once per frame
@@ -54,6 +56,31 @@ public class ButtonDoorRaycast : MonoBehaviour
                 doOnce = false;
             }
         }
+
+        //Box
+        if (Physics.Raycast(transform.position, forward, out hit, raylength, mask))
+        {
+            if (hit.collider.CompareTag(interactableTag1))
+            {
+                if (!doOnce)
+                {
+                    raycastObject1 = hit.collider.gameObject.GetComponent<PickupController>();
+                    CrosshairChange(true);
+                }
+
+                isCrosshairActive = true;
+                doOnce = true;
+            }
+        }
+        else
+        {
+            if (isCrosshairActive)
+            {
+                CrosshairChange(false);
+                doOnce = false;
+            }
+        }
+
     }
 
     void CrosshairChange(bool on)
