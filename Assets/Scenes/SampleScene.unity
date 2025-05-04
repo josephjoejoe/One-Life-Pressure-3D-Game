@@ -3814,6 +3814,7 @@ GameObject:
   - component: {fileID: 169935320}
   - component: {fileID: 169935319}
   - component: {fileID: 169935318}
+  - component: {fileID: 169935321}
   m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
@@ -3910,6 +3911,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 169935316}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &169935321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169935316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 579025acad9644820baace0cff1b78a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allBoxesOff: 0
+  ren: {fileID: 0}
 --- !u!1 &173180706
 GameObject:
   m_ObjectHideFlags: 0
@@ -9973,6 +9988,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   doorAnim: {fileID: 450073742}
   doorOpen: 0
+  task1Complete: 0
   openAnimationName: DoorOpen
   closeAnimationName: DoorClose
   waitTimer: 1
@@ -22220,6 +22236,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   doorAnim: {fileID: 1592315042}
   doorOpen: 0
+  task1Complete: 0
   openAnimationName: DoorOpen
   closeAnimationName: DoorClose
   waitTimer: 1
@@ -27919,6 +27936,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   doorAnim: {fileID: 704979832}
   doorOpen: 0
+  task1Complete: 0
   openAnimationName: DoorOpen
   closeAnimationName: DoorClose
   waitTimer: 1
@@ -32700,6 +32718,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   doorAnim: {fileID: 442825555}
   doorOpen: 0
+  task1Complete: 0
   openAnimationName: DoorOpen
   closeAnimationName: DoorClose
   waitTimer: 1

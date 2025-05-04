@@ -6,6 +6,7 @@ public class OpenDoorButton : MonoBehaviour
     [SerializeField] private Animator doorAnim = null;
 
     public bool doorOpen = false;
+    public bool task1Complete = false;
 
     [SerializeField] private string openAnimationName = "DoorOpen";
     [SerializeField] private string closeAnimationName = "DoorClose";
@@ -22,7 +23,7 @@ public class OpenDoorButton : MonoBehaviour
 
     public void PlayAnimation()
     {
-        if(!doorOpen && !pauseInteraction)
+        if(!doorOpen && !pauseInteraction )
         {
             doorAnim.Play(openAnimationName, 0, 0.0f);
             doorOpen = true;
@@ -30,7 +31,7 @@ public class OpenDoorButton : MonoBehaviour
         }
         else
         {
-            if (!doorOpen && !pauseInteraction)
+            if (!doorOpen && !pauseInteraction )
             {
                 doorAnim.Play(closeAnimationName, 0, 0.0f);
                 doorOpen = false;
@@ -42,5 +43,4 @@ public class OpenDoorButton : MonoBehaviour
     }
 
 
-    
 }
