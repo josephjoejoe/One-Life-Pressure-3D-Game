@@ -84,15 +84,6 @@ public class PlayerController : MonoBehaviour
             {
                 vel.y = RB.linearVelocity.y;
             }
-            // RAYCAST EXAMPLE
-            //if (Input.GetMouseButtonDown(0))
-            //{
-            //    if (Physics.Raycast(eyes.transform.position, eyes.transform.forward,
-            //        out RaycastHit hit, 30))
-            //    {
-            //        Debug.Log(hit.collider.name);
-            //    }
-            //}
 
 
             RB.linearVelocity = vel;

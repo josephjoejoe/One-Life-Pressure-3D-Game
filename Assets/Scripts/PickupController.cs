@@ -14,16 +14,20 @@ public class PickupController : MonoBehaviour
     [SerializeField] private float pickupRange = 5.0f;
     [SerializeField] private float pickupForce = 150.0f;
 
-    
+    public float throwForce;
+    Rigidbody RB;
 
     void Start()
     {
+        RB = GetComponent<Rigidbody>();
         heldObjectRB = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        Vector3 vel = Vector3.zero;
+
         if (Input.GetMouseButton(0))
         {
             if (heldObject == null)
@@ -34,11 +38,17 @@ public class PickupController : MonoBehaviour
                     PickupObject(hit.transform.gameObject);
                    
                 }
+
                
             }
-            
+
+            if (Input.GetMouseButton(1))
+            {
+                ThrowObject();
+
+            }
+
         }
-       
         if (Input.GetMouseButton(1))
         {
             DropObject();
@@ -49,6 +59,8 @@ public class PickupController : MonoBehaviour
         {
             MoveObject();
         }
+
+        RB.linearVelocity = vel;
     }
 
     void MoveObject()
@@ -79,11 +91,22 @@ public class PickupController : MonoBehaviour
         heldObjectRB.useGravity = true;
         heldObjectRB.linearDamping = 1;
         heldObjectRB.constraints = RigidbodyConstraints.None;
+        
+        heldObject.transform.parent = null;
+        heldObject = null;
+    }
+
+    void ThrowObject()
+    {
+        heldObjectRB.useGravity = true;
+        heldObjectRB.linearDamping = 1;
+        heldObjectRB.constraints = RigidbodyConstraints.None;
+
+        //Vector3 moveDirection = holdArea.position;
+        heldObjectRB.AddForce(transform.forward * throwForce);
 
         heldObject.transform.parent = null;
         heldObject = null;
-
     }
 
-    
 }
