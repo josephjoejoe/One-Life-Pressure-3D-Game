@@ -15,18 +15,18 @@ public class PickupController : MonoBehaviour
     [SerializeField] private float pickupForce = 150.0f;
 
     public float throwForce;
-    Rigidbody RB;
+    
 
     void Start()
     {
-        RB = GetComponent<Rigidbody>();
+        
         heldObjectRB = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 vel = Vector3.zero;
+        
 
         if (Input.GetMouseButton(0))
         {
@@ -60,7 +60,7 @@ public class PickupController : MonoBehaviour
             MoveObject();
         }
 
-        RB.linearVelocity = vel;
+        
     }
 
     void MoveObject()
