@@ -36,11 +36,15 @@ public class PickupController : MonoBehaviour
                 }
                
             }
-            else
-            {
-                DropObject();
-            }
+            
         }
+       
+        if (Input.GetMouseButton(1))
+        {
+            DropObject();
+
+        }
+
         if (heldObject != null)
         {
             MoveObject();
