@@ -6771,7 +6771,7 @@ MonoBehaviour:
   holdArea: {fileID: 1479875766}
   pickupRange: 5
   pickupForce: 150
-  throwForce: 20
+  throwForce: 40
 --- !u!114 &330585550
 MonoBehaviour:
   m_ObjectHideFlags: 0

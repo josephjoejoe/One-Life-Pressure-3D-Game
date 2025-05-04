@@ -102,7 +102,6 @@ public class PickupController : MonoBehaviour
         heldObjectRB.linearDamping = 1;
         heldObjectRB.constraints = RigidbodyConstraints.None;
 
-        //Vector3 moveDirection = holdArea.position;
         heldObjectRB.AddForce(transform.forward * throwForce);
 
         heldObject.transform.parent = null;
