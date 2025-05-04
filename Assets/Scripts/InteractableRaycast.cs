@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ButtonDoorRaycast : MonoBehaviour
+public class InteractableRaycast : MonoBehaviour
 {
     [SerializeField] private float raylength = 5;
     [SerializeField] private LayerMask layerMaskInteract;
@@ -28,7 +28,8 @@ public class ButtonDoorRaycast : MonoBehaviour
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         int mask = 1 << LayerMask.NameToLayer(excludeLayerName) | layerMaskInteract.value;
 
-        if(Physics.Raycast(transform.position, forward, out hit, raylength, mask))
+        //Button Raycast
+        if (Physics.Raycast(transform.position, forward, out hit, raylength, mask))
         {
             if (hit.collider.CompareTag(interactableTag))
             {
@@ -57,7 +58,7 @@ public class ButtonDoorRaycast : MonoBehaviour
             }
         }
 
-        //Box
+        //Box Raycast
         if (Physics.Raycast(transform.position, forward, out hit, raylength, mask))
         {
             if (hit.collider.CompareTag(interactableTag1))
@@ -85,7 +86,7 @@ public class ButtonDoorRaycast : MonoBehaviour
 
     void CrosshairChange(bool on)
     {
-        if(on && !doOnce)
+        if (on && !doOnce)
         {
             crosshair.color = Color.red;
         }
