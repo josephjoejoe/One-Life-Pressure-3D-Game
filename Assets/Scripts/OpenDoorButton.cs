@@ -5,6 +5,8 @@ public class OpenDoorButton : MonoBehaviour
 {
     [SerializeField] private Animator doorAnim = null;
 
+    public AudioSource doorOepning;
+
     public bool doorOpen = false;
     public bool task1Complete = false;
 
@@ -13,6 +15,11 @@ public class OpenDoorButton : MonoBehaviour
 
     [SerializeField] private int waitTimer = 1;
     [SerializeField] private bool pauseInteraction = false;
+
+    void Start()
+    {
+        doorOepning = GetComponent<AudioSource>();
+    }
 
     private IEnumerator PauseDoorInteraction()
     {
@@ -28,6 +35,7 @@ public class OpenDoorButton : MonoBehaviour
             doorAnim.Play(openAnimationName, 0, 0.0f);
             doorOpen = true;
             StartCoroutine(PauseDoorInteraction());
+            doorOepning.Play();
         }
         else
         {
