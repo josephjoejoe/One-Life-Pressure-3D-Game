@@ -1,11 +1,13 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class AllBoxOffFloor : MonoBehaviour
 {
 
     [SerializeField] public bool allBoxesOff = false;
     public Renderer floorRend;
-   
+
+    public List<GameObject> floor;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
