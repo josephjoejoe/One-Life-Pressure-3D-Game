@@ -349,7 +349,7 @@ GameObject:
   - component: {fileID: 11573041}
   m_Layer: 0
   m_Name: Pressure Plate (90)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -457,7 +457,7 @@ GameObject:
   - component: {fileID: 13024245}
   m_Layer: 0
   m_Name: Pressure Plate (58)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -673,7 +673,7 @@ GameObject:
   - component: {fileID: 23315451}
   m_Layer: 0
   m_Name: Pressure Plate (47)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1105,7 +1105,7 @@ GameObject:
   - component: {fileID: 36596355}
   m_Layer: 0
   m_Name: Pressure Plate (104)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1816,7 +1816,7 @@ GameObject:
   - component: {fileID: 94895179}
   m_Layer: 0
   m_Name: Pressure Plate (55)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2356,7 +2356,7 @@ GameObject:
   - component: {fileID: 128739357}
   m_Layer: 0
   m_Name: Pressure Plate (36)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2464,7 +2464,7 @@ GameObject:
   - component: {fileID: 136407707}
   m_Layer: 0
   m_Name: Pressure Plate (8)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2572,7 +2572,7 @@ GameObject:
   - component: {fileID: 136713418}
   m_Layer: 0
   m_Name: Pressure Plate (98)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3220,7 +3220,7 @@ GameObject:
   - component: {fileID: 147164780}
   m_Layer: 0
   m_Name: Pressure Plate (11)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3572,7 +3572,7 @@ GameObject:
   - component: {fileID: 162086975}
   m_Layer: 0
   m_Name: Pressure Plate (39)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4075,7 +4075,7 @@ GameObject:
   - component: {fileID: 174584873}
   m_Layer: 0
   m_Name: Pressure Plate (99)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4291,7 +4291,7 @@ GameObject:
   - component: {fileID: 188320181}
   m_Layer: 0
   m_Name: Pressure Plate (107)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4831,7 +4831,7 @@ GameObject:
   - component: {fileID: 213799405}
   m_Layer: 0
   m_Name: Pressure Plate (27)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4939,7 +4939,7 @@ GameObject:
   - component: {fileID: 230779137}
   m_Layer: 0
   m_Name: Pressure Plate (41)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5507,7 +5507,7 @@ GameObject:
   - component: {fileID: 268743739}
   m_Layer: 0
   m_Name: Pressure Plate (70)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5615,7 +5615,7 @@ GameObject:
   - component: {fileID: 270479264}
   m_Layer: 0
   m_Name: Pressure Plate (108)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5859,7 +5859,7 @@ GameObject:
   - component: {fileID: 294203661}
   m_Layer: 0
   m_Name: Pressure Plate (109)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6820,7 +6820,7 @@ GameObject:
   - component: {fileID: 335976431}
   m_Layer: 0
   m_Name: Pressure Plate (69)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7144,7 +7144,7 @@ GameObject:
   - component: {fileID: 350631920}
   m_Layer: 0
   m_Name: Pressure Plate (95)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7792,7 +7792,7 @@ GameObject:
   - component: {fileID: 381657196}
   m_Layer: 0
   m_Name: Pressure Plate (52)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8116,7 +8116,7 @@ GameObject:
   - component: {fileID: 388007705}
   m_Layer: 0
   m_Name: Pressure Plate (30)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8224,7 +8224,7 @@ GameObject:
   - component: {fileID: 401459572}
   m_Layer: 0
   m_Name: Pressure Plate
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8561,7 +8561,7 @@ GameObject:
   - component: {fileID: 419685807}
   m_Layer: 0
   m_Name: Pressure Plate (78)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8669,7 +8669,7 @@ GameObject:
   - component: {fileID: 429293343}
   m_Layer: 0
   m_Name: Pressure Plate (22)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9527,7 +9527,7 @@ GameObject:
   - component: {fileID: 459098472}
   m_Layer: 0
   m_Name: Pressure Plate (75)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9771,7 +9771,7 @@ GameObject:
   - component: {fileID: 462633491}
   m_Layer: 0
   m_Name: Pressure Plate (102)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10350,7 +10350,7 @@ GameObject:
   - component: {fileID: 494270767}
   m_Layer: 0
   m_Name: Pressure Plate (74)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10458,7 +10458,7 @@ GameObject:
   - component: {fileID: 515559565}
   m_Layer: 0
   m_Name: Pressure Plate (20)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10566,7 +10566,7 @@ GameObject:
   - component: {fileID: 523593558}
   m_Layer: 0
   m_Name: Pressure Plate (26)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11242,7 +11242,7 @@ GameObject:
   - component: {fileID: 563423545}
   m_Layer: 0
   m_Name: Pressure Plate (96)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11350,7 +11350,7 @@ GameObject:
   - component: {fileID: 572272898}
   m_Layer: 0
   m_Name: Pressure Plate (82)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11458,7 +11458,7 @@ GameObject:
   - component: {fileID: 579505622}
   m_Layer: 0
   m_Name: Pressure Plate (71)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11674,7 +11674,7 @@ GameObject:
   - component: {fileID: 585097627}
   m_Layer: 0
   m_Name: Pressure Plate (2)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11892,7 +11892,7 @@ GameObject:
   - component: {fileID: 588181443}
   m_Layer: 0
   m_Name: Pressure Plate (86)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12092,7 +12092,7 @@ Transform:
   m_GameObject: {fileID: 591603762}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 43.9, z: 77.4}
+  m_LocalPosition: {x: 0, y: 30.39, z: 50.69}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12512,7 +12512,7 @@ GameObject:
   - component: {fileID: 635011303}
   m_Layer: 0
   m_Name: Pressure Plate (45)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12620,7 +12620,7 @@ GameObject:
   - component: {fileID: 644825268}
   m_Layer: 0
   m_Name: Pressure Plate (40)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12728,7 +12728,7 @@ GameObject:
   - component: {fileID: 648527556}
   m_Layer: 0
   m_Name: Pressure Plate (32)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12944,7 +12944,7 @@ GameObject:
   - component: {fileID: 654511587}
   m_Layer: 0
   m_Name: Pressure Plate (87)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13052,7 +13052,7 @@ GameObject:
   - component: {fileID: 665627021}
   m_Layer: 0
   m_Name: Pressure Plate (100)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13160,7 +13160,7 @@ GameObject:
   - component: {fileID: 680715669}
   m_Layer: 0
   m_Name: Pressure Plate (68)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13409,7 +13409,7 @@ GameObject:
   - component: {fileID: 696599320}
   m_Layer: 0
   m_Name: Pressure Plate (1)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14082,7 +14082,7 @@ GameObject:
   - component: {fileID: 710223850}
   m_Layer: 0
   m_Name: Pressure Plate (88)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14190,7 +14190,7 @@ GameObject:
   - component: {fileID: 711156055}
   m_Layer: 0
   m_Name: Pressure Plate (29)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14786,7 +14786,7 @@ GameObject:
   - component: {fileID: 731665940}
   m_Layer: 0
   m_Name: Pressure Plate (63)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15274,7 +15274,7 @@ GameObject:
   - component: {fileID: 749929259}
   m_Layer: 0
   m_Name: Pressure Plate (7)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15382,7 +15382,7 @@ GameObject:
   - component: {fileID: 750797634}
   m_Layer: 0
   m_Name: Pressure Plate (51)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15598,7 +15598,7 @@ GameObject:
   - component: {fileID: 752804336}
   m_Layer: 0
   m_Name: Pressure Plate (94)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15706,7 +15706,7 @@ GameObject:
   - component: {fileID: 757969453}
   m_Layer: 0
   m_Name: Pressure Plate (23)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16030,7 +16030,7 @@ GameObject:
   - component: {fileID: 787334192}
   m_Layer: 0
   m_Name: Pressure Plate (25)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16138,7 +16138,7 @@ GameObject:
   - component: {fileID: 787379602}
   m_Layer: 0
   m_Name: Pressure Plate (6)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16246,7 +16246,7 @@ GameObject:
   - component: {fileID: 790056730}
   m_Layer: 0
   m_Name: Pressure Plate (48)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16525,7 +16525,7 @@ GameObject:
   - component: {fileID: 801117489}
   m_Layer: 0
   m_Name: Pressure Plate (43)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16633,7 +16633,7 @@ GameObject:
   - component: {fileID: 814466607}
   m_Layer: 0
   m_Name: Pressure Plate (54)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16741,7 +16741,7 @@ GameObject:
   - component: {fileID: 816018635}
   m_Layer: 0
   m_Name: Pressure Plate (44)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16849,7 +16849,7 @@ GameObject:
   - component: {fileID: 824806263}
   m_Layer: 0
   m_Name: Pressure Plate (28)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17546,7 +17546,7 @@ GameObject:
   - component: {fileID: 857384787}
   m_Layer: 0
   m_Name: Pressure Plate (9)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17654,7 +17654,7 @@ GameObject:
   - component: {fileID: 863872443}
   m_Layer: 0
   m_Name: Pressure Plate (106)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18086,7 +18086,7 @@ GameObject:
   - component: {fileID: 893539301}
   m_Layer: 0
   m_Name: Pressure Plate (16)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18869,7 +18869,7 @@ GameObject:
   - component: {fileID: 949578245}
   m_Layer: 0
   m_Name: Pressure Plate (14)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20362,7 +20362,7 @@ GameObject:
   - component: {fileID: 1069423742}
   m_Layer: 0
   m_Name: Pressure Plate (59)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21038,7 +21038,7 @@ GameObject:
   - component: {fileID: 1102332607}
   m_Layer: 0
   m_Name: Pressure Plate (61)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21146,7 +21146,7 @@ GameObject:
   - component: {fileID: 1108623965}
   m_Layer: 0
   m_Name: Pressure Plate (50)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21254,7 +21254,7 @@ GameObject:
   - component: {fileID: 1110436398}
   m_Layer: 0
   m_Name: Pressure Plate (33)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21822,7 +21822,7 @@ GameObject:
   - component: {fileID: 1153440540}
   m_Layer: 0
   m_Name: Pressure Plate (49)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21930,7 +21930,7 @@ GameObject:
   - component: {fileID: 1153919101}
   m_Layer: 0
   m_Name: Pressure Plate (35)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22146,7 +22146,7 @@ GameObject:
   - component: {fileID: 1159532392}
   m_Layer: 0
   m_Name: Pressure Plate (103)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22481,7 +22481,7 @@ GameObject:
   - component: {fileID: 1163910130}
   m_Layer: 0
   m_Name: Pressure Plate (12)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23345,7 +23345,7 @@ GameObject:
   - component: {fileID: 1203703569}
   m_Layer: 0
   m_Name: Pressure Plate (62)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23669,7 +23669,7 @@ GameObject:
   - component: {fileID: 1219002165}
   m_Layer: 0
   m_Name: Pressure Plate (5)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23993,7 +23993,7 @@ GameObject:
   - component: {fileID: 1231800362}
   m_Layer: 0
   m_Name: Pressure Plate (84)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24237,7 +24237,7 @@ GameObject:
   - component: {fileID: 1250086137}
   m_Layer: 0
   m_Name: Pressure Plate (85)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24345,7 +24345,7 @@ GameObject:
   - component: {fileID: 1253397665}
   m_Layer: 0
   m_Name: Pressure Plate (56)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24453,7 +24453,7 @@ GameObject:
   - component: {fileID: 1255363067}
   m_Layer: 0
   m_Name: Pressure Plate (77)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24561,7 +24561,7 @@ GameObject:
   - component: {fileID: 1267310735}
   m_Layer: 0
   m_Name: Pressure Plate (65)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25021,7 +25021,7 @@ GameObject:
   - component: {fileID: 1272881439}
   m_Layer: 0
   m_Name: Pressure Plate (4)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25373,7 +25373,7 @@ GameObject:
   - component: {fileID: 1299787749}
   m_Layer: 0
   m_Name: Pressure Plate (73)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26159,7 +26159,7 @@ GameObject:
   - component: {fileID: 1341139027}
   m_Layer: 0
   m_Name: Pressure Plate (34)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26915,7 +26915,7 @@ GameObject:
   - component: {fileID: 1398964391}
   m_Layer: 0
   m_Name: Pressure Plate (24)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27023,7 +27023,7 @@ GameObject:
   - component: {fileID: 1408104632}
   m_Layer: 0
   m_Name: Pressure Plate (72)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28029,7 +28029,7 @@ GameObject:
   - component: {fileID: 1453833150}
   m_Layer: 0
   m_Name: Pressure Plate (101)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28747,7 +28747,7 @@ GameObject:
   - component: {fileID: 1503270071}
   m_Layer: 0
   m_Name: Pressure Plate (21)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28855,7 +28855,7 @@ GameObject:
   - component: {fileID: 1507626719}
   m_Layer: 0
   m_Name: Pressure Plate (31)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28996,7 +28996,7 @@ GameObject:
   - component: {fileID: 1523862472}
   m_Layer: 0
   m_Name: Pressure Plate (79)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29212,7 +29212,7 @@ GameObject:
   - component: {fileID: 1530580025}
   m_Layer: 0
   m_Name: Pressure Plate (91)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29456,7 +29456,7 @@ GameObject:
   - component: {fileID: 1536874764}
   m_Layer: 0
   m_Name: Pressure Plate (37)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29780,7 +29780,7 @@ GameObject:
   - component: {fileID: 1570428120}
   m_Layer: 0
   m_Name: Pressure Plate (38)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30024,7 +30024,7 @@ GameObject:
   - component: {fileID: 1581680031}
   m_Layer: 0
   m_Name: Pressure Plate (19)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30132,7 +30132,7 @@ GameObject:
   - component: {fileID: 1585457530}
   m_Layer: 0
   m_Name: Pressure Plate (67)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30411,7 +30411,7 @@ GameObject:
   - component: {fileID: 1598182077}
   m_Layer: 0
   m_Name: Pressure Plate (15)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30735,7 +30735,7 @@ GameObject:
   - component: {fileID: 1627741974}
   m_Layer: 0
   m_Name: Pressure Plate (46)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30951,7 +30951,7 @@ GameObject:
   - component: {fileID: 1654997262}
   m_Layer: 0
   m_Name: Pressure Plate (13)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31059,7 +31059,7 @@ GameObject:
   - component: {fileID: 1655794327}
   m_Layer: 0
   m_Name: Pressure Plate (89)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31167,7 +31167,7 @@ GameObject:
   - component: {fileID: 1661251838}
   m_Layer: 0
   m_Name: Pressure Plate (57)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31275,7 +31275,7 @@ GameObject:
   - component: {fileID: 1664070848}
   m_Layer: 0
   m_Name: Pressure Plate (76)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31383,7 +31383,7 @@ GameObject:
   - component: {fileID: 1664558125}
   m_Layer: 0
   m_Name: Pressure Plate (97)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31627,7 +31627,7 @@ GameObject:
   - component: {fileID: 1685455422}
   m_Layer: 0
   m_Name: Pressure Plate (42)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32694,7 +32694,7 @@ GameObject:
   - component: {fileID: 1763183030}
   m_Layer: 0
   m_Name: Pressure Plate (80)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33602,7 +33602,7 @@ GameObject:
   - component: {fileID: 1804659695}
   m_Layer: 0
   m_Name: Pressure Plate (66)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33710,7 +33710,7 @@ GameObject:
   - component: {fileID: 1805962166}
   m_Layer: 0
   m_Name: Pressure Plate (105)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34277,6 +34277,52 @@ Transform:
   - {fileID: 1592315038}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1866023130
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1866023131}
+  - component: {fileID: 1866023132}
+  m_Layer: 0
+  m_Name: Random Pressure Plate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1866023131
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866023130}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2094503716}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1866023132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866023130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e74483dab85c94d599e7196683cba9e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PressurePlateTag: PressurePlate
+  changeInterval: 2
 --- !u!1 &1867146233
 GameObject:
   m_ObjectHideFlags: 0
@@ -35226,7 +35272,7 @@ GameObject:
   - component: {fileID: 1946318817}
   m_Layer: 0
   m_Name: Pressure Plate (18)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35367,7 +35413,7 @@ GameObject:
   - component: {fileID: 1955101204}
   m_Layer: 0
   m_Name: Pressure Plate (64)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35963,7 +36009,7 @@ GameObject:
   - component: {fileID: 1983428835}
   m_Layer: 0
   m_Name: Pressure Plate (83)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36071,7 +36117,7 @@ GameObject:
   - component: {fileID: 1984828306}
   m_Layer: 0
   m_Name: Pressure Plate (53)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36287,7 +36333,7 @@ GameObject:
   - component: {fileID: 1989320228}
   m_Layer: 0
   m_Name: Pressure Plate (93)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36503,7 +36549,7 @@ GameObject:
   - component: {fileID: 1994123381}
   m_Layer: 0
   m_Name: Pressure Plate (60)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38052,7 +38098,7 @@ GameObject:
   - component: {fileID: 2080322565}
   m_Layer: 0
   m_Name: Pressure Plate (10)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38327,6 +38373,7 @@ Transform:
   - {fileID: 1764895743}
   - {fileID: 1781764204}
   - {fileID: 442825554}
+  - {fileID: 1866023131}
   - {fileID: 1788357347}
   - {fileID: 905028013}
   m_Father: {fileID: 0}
@@ -38345,7 +38392,7 @@ GameObject:
   - component: {fileID: 2109012568}
   m_Layer: 0
   m_Name: Pressure Plate (17)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38561,7 +38608,7 @@ GameObject:
   - component: {fileID: 2118569304}
   m_Layer: 0
   m_Name: Pressure Plate (92)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38777,7 +38824,7 @@ GameObject:
   - component: {fileID: 2124788930}
   m_Layer: 0
   m_Name: Pressure Plate (81)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38885,7 +38932,7 @@ GameObject:
   - component: {fileID: 2143308038}
   m_Layer: 0
   m_Name: Pressure Plate (3)
-  m_TagString: Untagged
+  m_TagString: PressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
