@@ -4065,7 +4065,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allBoxesOff: 0
   floorRend: {fileID: 169935319}
-  floor:
+  boxes:
+  - {fileID: 0}
   - {fileID: 1955110625}
   - {fileID: 78920543}
   - {fileID: 1491825850}

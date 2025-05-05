@@ -7,7 +7,7 @@ public class AllBoxOffFloor : MonoBehaviour
     [SerializeField] public bool allBoxesOff = false;
     public Renderer floorRend;
 
-    public List<GameObject> floor;
+    public List<GameObject> boxes;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
