@@ -9,13 +9,11 @@ public class AllBoxOffFloor : MonoBehaviour
 
     public List<GameObject> boxes;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         floorRend = GetComponent<Renderer>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (allBoxesOff == false )
@@ -31,16 +29,34 @@ public class AllBoxOffFloor : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag.Equals("Box"))
-        {
-            allBoxesOff = false;
-        }
-        else
-        {
-            allBoxesOff = true;
-        }
-       
-        
+            boxes.Add(collision.gameObject);
+
+        //if (collision.gameObject.tag.Equals("Box"))
+        //{
+        //    allBoxesOff = false;
+        //}
+        //else
+        //{
+        //    allBoxesOff = true;
+        //}
+
+
     }
 
-   
+    void OnCollisionExit(Collision collision)
+    {
+        if (collision.gameObject.tag.Equals("Box"))
+            boxes.Remove(collision.gameObject);
+        //if (collision.gameObject.tag.Equals("Box"))
+        //{
+        //    allBoxesOff = false;
+        //}
+        //else
+        //{
+        //    allBoxesOff = true;
+        //}
+
+
+    }
+
 }

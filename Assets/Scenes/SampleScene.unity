@@ -4065,44 +4065,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allBoxesOff: 0
   floorRend: {fileID: 169935319}
-  boxes:
-  - {fileID: 0}
-  - {fileID: 1955110625}
-  - {fileID: 78920543}
-  - {fileID: 1491825850}
-  - {fileID: 2005726195}
-  - {fileID: 1137074497}
-  - {fileID: 167423791}
-  - {fileID: 327649785}
-  - {fileID: 1759216830}
-  - {fileID: 557676904}
-  - {fileID: 2034006901}
-  - {fileID: 945324027}
-  - {fileID: 450522791}
-  - {fileID: 158999662}
-  - {fileID: 1087389347}
-  - {fileID: 712051237}
-  - {fileID: 259233806}
-  - {fileID: 459952438}
-  - {fileID: 488565426}
-  - {fileID: 616574177}
-  - {fileID: 976606994}
-  - {fileID: 728081133}
-  - {fileID: 1531725182}
-  - {fileID: 173180706}
-  - {fileID: 1884037538}
-  - {fileID: 1312284127}
-  - {fileID: 791665690}
-  - {fileID: 1296491589}
-  - {fileID: 285599755}
-  - {fileID: 1574405581}
-  - {fileID: 739889741}
-  - {fileID: 2069162367}
-  - {fileID: 442161284}
-  - {fileID: 1968217582}
-  - {fileID: 1005424358}
-  - {fileID: 1681958397}
-  - {fileID: 2031275774}
+  boxes: []
 --- !u!1 &173180706
 GameObject:
   m_ObjectHideFlags: 0
