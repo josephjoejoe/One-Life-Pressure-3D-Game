@@ -1,6 +1,6 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.InputSystem.XR;
+
 
 public class OneRedBoxAtATime : MonoBehaviour
 {
@@ -8,7 +8,7 @@ public class OneRedBoxAtATime : MonoBehaviour
     public string PlayerTag = "Player";
     public float changeInterval = 1.5f;
 
-    public bool PlayerOnPressurePlate;
+    public bool PlayerOnPressurePlate; 
 
     private GameObject[] pressurePlate;
     private GameObject currentGreenPlate;
@@ -57,21 +57,6 @@ public class OneRedBoxAtATime : MonoBehaviour
             }
         }
     }
-
-    //void OnCollisionStay(Collision collision)
-    //{
-    //    if (collision.gameObject.CompareTag(PlayerTag))
-    //    {
-    //        foreach (ContactPoint contact in collision.contacts)
-    //        {
-    //            if (contact.otherCollider.gameObject == currentGreenPlate)
-    //            {
-    //                PlayerOnPressurePlate = true;
-    //                break;
-    //            }
-    //        }
-    //    }
-    //}
 
     void OnCollisionEnter(Collision collision)
     {

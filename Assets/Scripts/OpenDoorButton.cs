@@ -30,6 +30,7 @@ public class OpenDoorButton : MonoBehaviour
 
     public void PlayAnimation()
     {
+
         if(!doorOpen && !pauseInteraction )
         {
             doorAnim.Play(openAnimationName, 0, 0.0f);
