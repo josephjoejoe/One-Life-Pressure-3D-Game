@@ -1,13 +1,17 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.InputSystem.XR;
 
 public class OneRedBoxAtATime : MonoBehaviour
 {
     public string PressurePlateTag = "PressurePlate";
+    public string PlayerTag = "Player";
     public float changeInterval = 1.5f;
 
+    public bool PlayerOnPressurePlate;
+
     private GameObject[] pressurePlate;
-    private GameObject currentGreenBox;
+    private GameObject currentGreenPlate;
     private Color originalColor;
 
     void Start()
@@ -22,32 +26,67 @@ public class OneRedBoxAtATime : MonoBehaviour
         {
             yield return new WaitForSeconds(changeInterval);
 
-            // Pick a random box that isn't the current red one
-            GameObject newGreenBox;
+            // If player is standing on the current green plate, stop changing
+            if (PlayerOnPressurePlate) continue;
+
+            // Pick a random plate that isn't the current green one
+            GameObject newGreenPlate;
             do
             {
-                newGreenBox = pressurePlate[Random.Range(0, pressurePlate.Length)];
+                newGreenPlate = pressurePlate[Random.Range(0, pressurePlate.Length)];
             }
-            while (newGreenBox == currentGreenBox && pressurePlate.Length > 1);
+            while (newGreenPlate == currentGreenPlate && pressurePlate.Length > 1);
 
             // Restore previous box's color
-            if (currentGreenBox != null)
+            if (currentGreenPlate != null)
             {
-                Renderer prevRend = currentGreenBox.GetComponent<Renderer>();
+                Renderer prevRend = currentGreenPlate.GetComponent<Renderer>();
                 if (prevRend != null)
                 {
                     prevRend.material.color = originalColor;
                 }
             }
 
-            // Change new box to green
-            Renderer newRend = newGreenBox.GetComponent<Renderer>();
+            // Change new plate to green
+            Renderer newRend = newGreenPlate.GetComponent<Renderer>();
             if (newRend != null)
             {
                 originalColor = newRend.material.color;
                 newRend.material.color = Color.green;
-                currentGreenBox = newGreenBox;
+                currentGreenPlate = newGreenPlate;
             }
+        }
+    }
+
+    //void OnCollisionStay(Collision collision)
+    //{
+    //    if (collision.gameObject.CompareTag(PlayerTag))
+    //    {
+    //        foreach (ContactPoint contact in collision.contacts)
+    //        {
+    //            if (contact.otherCollider.gameObject == currentGreenPlate)
+    //            {
+    //                PlayerOnPressurePlate = true;
+    //                break;
+    //            }
+    //        }
+    //    }
+    //}
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            _ = gameObject;
+        }
+    }
+
+    public void TryActivatePlate(GameObject plate)
+    {
+        if (plate == currentGreenPlate)
+        {
+            Debug.Log("Player stepped on the green plate!");
+            PlayerOnPressurePlate = true;
         }
     }
 }

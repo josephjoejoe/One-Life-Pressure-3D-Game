@@ -347,6 +347,7 @@ GameObject:
   - component: {fileID: 11573043}
   - component: {fileID: 11573042}
   - component: {fileID: 11573041}
+  - component: {fileID: 11573044}
   m_Layer: 0
   m_Name: Pressure Plate (90)
   m_TagString: PressurePlate
@@ -443,6 +444,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 11573039}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &11573044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11573039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &13024243
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,6 +469,7 @@ GameObject:
   - component: {fileID: 13024247}
   - component: {fileID: 13024246}
   - component: {fileID: 13024245}
+  - component: {fileID: 13024248}
   m_Layer: 0
   m_Name: Pressure Plate (58)
   m_TagString: PressurePlate
@@ -551,6 +566,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 13024243}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &13024248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13024243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &22186506
 GameObject:
   m_ObjectHideFlags: 0
@@ -671,6 +699,7 @@ GameObject:
   - component: {fileID: 23315453}
   - component: {fileID: 23315452}
   - component: {fileID: 23315451}
+  - component: {fileID: 23315454}
   m_Layer: 0
   m_Name: Pressure Plate (47)
   m_TagString: PressurePlate
@@ -767,6 +796,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 23315449}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &23315454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23315449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &29987662
 GameObject:
   m_ObjectHideFlags: 0
@@ -1103,6 +1145,7 @@ GameObject:
   - component: {fileID: 36596357}
   - component: {fileID: 36596356}
   - component: {fileID: 36596355}
+  - component: {fileID: 36596358}
   m_Layer: 0
   m_Name: Pressure Plate (104)
   m_TagString: PressurePlate
@@ -1199,6 +1242,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 36596353}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &36596358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36596353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &49533462
 GameObject:
   m_ObjectHideFlags: 0
@@ -1814,6 +1870,7 @@ GameObject:
   - component: {fileID: 94895181}
   - component: {fileID: 94895180}
   - component: {fileID: 94895179}
+  - component: {fileID: 94895182}
   m_Layer: 0
   m_Name: Pressure Plate (55)
   m_TagString: PressurePlate
@@ -1910,6 +1967,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 94895177}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &94895182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94895177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &96646798
 GameObject:
   m_ObjectHideFlags: 0
@@ -2354,6 +2424,7 @@ GameObject:
   - component: {fileID: 128739359}
   - component: {fileID: 128739358}
   - component: {fileID: 128739357}
+  - component: {fileID: 128739360}
   m_Layer: 0
   m_Name: Pressure Plate (36)
   m_TagString: PressurePlate
@@ -2450,6 +2521,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 128739355}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &128739360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128739355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &136407705
 GameObject:
   m_ObjectHideFlags: 0
@@ -2462,6 +2546,7 @@ GameObject:
   - component: {fileID: 136407709}
   - component: {fileID: 136407708}
   - component: {fileID: 136407707}
+  - component: {fileID: 136407710}
   m_Layer: 0
   m_Name: Pressure Plate (8)
   m_TagString: PressurePlate
@@ -2558,6 +2643,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 136407705}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &136407710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136407705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &136713416
 GameObject:
   m_ObjectHideFlags: 0
@@ -2570,6 +2668,7 @@ GameObject:
   - component: {fileID: 136713420}
   - component: {fileID: 136713419}
   - component: {fileID: 136713418}
+  - component: {fileID: 136713421}
   m_Layer: 0
   m_Name: Pressure Plate (98)
   m_TagString: PressurePlate
@@ -2666,6 +2765,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 136713416}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &136713421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136713416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &137693664
 GameObject:
   m_ObjectHideFlags: 0
@@ -3218,6 +3330,7 @@ GameObject:
   - component: {fileID: 147164782}
   - component: {fileID: 147164781}
   - component: {fileID: 147164780}
+  - component: {fileID: 147164783}
   m_Layer: 0
   m_Name: Pressure Plate (11)
   m_TagString: PressurePlate
@@ -3314,6 +3427,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 147164778}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &147164783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147164778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &149508921
 GameObject:
   m_ObjectHideFlags: 0
@@ -3570,6 +3696,7 @@ GameObject:
   - component: {fileID: 162086977}
   - component: {fileID: 162086976}
   - component: {fileID: 162086975}
+  - component: {fileID: 162086978}
   m_Layer: 0
   m_Name: Pressure Plate (39)
   m_TagString: PressurePlate
@@ -3666,6 +3793,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 162086973}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &162086978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162086973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &167423791
 GameObject:
   m_ObjectHideFlags: 0
@@ -4073,6 +4213,7 @@ GameObject:
   - component: {fileID: 174584875}
   - component: {fileID: 174584874}
   - component: {fileID: 174584873}
+  - component: {fileID: 174584876}
   m_Layer: 0
   m_Name: Pressure Plate (99)
   m_TagString: PressurePlate
@@ -4169,6 +4310,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 174584871}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &174584876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 174584871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &187175757
 GameObject:
   m_ObjectHideFlags: 0
@@ -4289,6 +4443,7 @@ GameObject:
   - component: {fileID: 188320183}
   - component: {fileID: 188320182}
   - component: {fileID: 188320181}
+  - component: {fileID: 188320184}
   m_Layer: 0
   m_Name: Pressure Plate (107)
   m_TagString: PressurePlate
@@ -4385,6 +4540,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 188320179}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &188320184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188320179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &191909598
 GameObject:
   m_ObjectHideFlags: 0
@@ -4829,6 +4997,7 @@ GameObject:
   - component: {fileID: 213799407}
   - component: {fileID: 213799406}
   - component: {fileID: 213799405}
+  - component: {fileID: 213799408}
   m_Layer: 0
   m_Name: Pressure Plate (27)
   m_TagString: PressurePlate
@@ -4925,6 +5094,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 213799403}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &213799408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213799403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &230779135
 GameObject:
   m_ObjectHideFlags: 0
@@ -4937,6 +5119,7 @@ GameObject:
   - component: {fileID: 230779139}
   - component: {fileID: 230779138}
   - component: {fileID: 230779137}
+  - component: {fileID: 230779140}
   m_Layer: 0
   m_Name: Pressure Plate (41)
   m_TagString: PressurePlate
@@ -5033,6 +5216,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 230779135}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &230779140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230779135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &232931099
 GameObject:
   m_ObjectHideFlags: 0
@@ -5505,6 +5701,7 @@ GameObject:
   - component: {fileID: 268743741}
   - component: {fileID: 268743740}
   - component: {fileID: 268743739}
+  - component: {fileID: 268743742}
   m_Layer: 0
   m_Name: Pressure Plate (70)
   m_TagString: PressurePlate
@@ -5601,6 +5798,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 268743737}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &268743742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268743737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &270479262
 GameObject:
   m_ObjectHideFlags: 0
@@ -5613,6 +5823,7 @@ GameObject:
   - component: {fileID: 270479266}
   - component: {fileID: 270479265}
   - component: {fileID: 270479264}
+  - component: {fileID: 270479267}
   m_Layer: 0
   m_Name: Pressure Plate (108)
   m_TagString: PressurePlate
@@ -5709,6 +5920,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 270479262}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &270479267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270479262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &285599755
 GameObject:
   m_ObjectHideFlags: 0
@@ -5857,6 +6081,7 @@ GameObject:
   - component: {fileID: 294203663}
   - component: {fileID: 294203662}
   - component: {fileID: 294203661}
+  - component: {fileID: 294203664}
   m_Layer: 0
   m_Name: Pressure Plate (109)
   m_TagString: PressurePlate
@@ -5953,6 +6178,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 294203659}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &294203664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294203659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &295050034
 GameObject:
   m_ObjectHideFlags: 0
@@ -6818,6 +7056,7 @@ GameObject:
   - component: {fileID: 335976433}
   - component: {fileID: 335976432}
   - component: {fileID: 335976431}
+  - component: {fileID: 335976434}
   m_Layer: 0
   m_Name: Pressure Plate (69)
   m_TagString: PressurePlate
@@ -6914,6 +7153,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 335976429}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &335976434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335976429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &338945306
 GameObject:
   m_ObjectHideFlags: 0
@@ -7142,6 +7394,7 @@ GameObject:
   - component: {fileID: 350631922}
   - component: {fileID: 350631921}
   - component: {fileID: 350631920}
+  - component: {fileID: 350631923}
   m_Layer: 0
   m_Name: Pressure Plate (95)
   m_TagString: PressurePlate
@@ -7238,6 +7491,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 350631918}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &350631923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350631918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &351609501
 GameObject:
   m_ObjectHideFlags: 0
@@ -7790,6 +8056,7 @@ GameObject:
   - component: {fileID: 381657198}
   - component: {fileID: 381657197}
   - component: {fileID: 381657196}
+  - component: {fileID: 381657199}
   m_Layer: 0
   m_Name: Pressure Plate (52)
   m_TagString: PressurePlate
@@ -7886,6 +8153,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 381657194}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &381657199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381657194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &386386867
 GameObject:
   m_ObjectHideFlags: 0
@@ -8114,6 +8394,7 @@ GameObject:
   - component: {fileID: 388007707}
   - component: {fileID: 388007706}
   - component: {fileID: 388007705}
+  - component: {fileID: 388007708}
   m_Layer: 0
   m_Name: Pressure Plate (30)
   m_TagString: PressurePlate
@@ -8210,6 +8491,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 388007703}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &388007708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388007703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &401459570
 GameObject:
   m_ObjectHideFlags: 0
@@ -8222,6 +8516,7 @@ GameObject:
   - component: {fileID: 401459574}
   - component: {fileID: 401459573}
   - component: {fileID: 401459572}
+  - component: {fileID: 401459575}
   m_Layer: 0
   m_Name: Pressure Plate
   m_TagString: PressurePlate
@@ -8318,6 +8613,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 401459570}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &401459575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401459570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -8559,6 +8867,7 @@ GameObject:
   - component: {fileID: 419685809}
   - component: {fileID: 419685808}
   - component: {fileID: 419685807}
+  - component: {fileID: 419685810}
   m_Layer: 0
   m_Name: Pressure Plate (78)
   m_TagString: PressurePlate
@@ -8655,6 +8964,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 419685805}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &419685810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419685805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &429293341
 GameObject:
   m_ObjectHideFlags: 0
@@ -8667,6 +8989,7 @@ GameObject:
   - component: {fileID: 429293345}
   - component: {fileID: 429293344}
   - component: {fileID: 429293343}
+  - component: {fileID: 429293346}
   m_Layer: 0
   m_Name: Pressure Plate (22)
   m_TagString: PressurePlate
@@ -8763,6 +9086,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 429293341}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &429293346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429293341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &441794615
 GameObject:
   m_ObjectHideFlags: 0
@@ -9525,6 +9861,7 @@ GameObject:
   - component: {fileID: 459098474}
   - component: {fileID: 459098473}
   - component: {fileID: 459098472}
+  - component: {fileID: 459098475}
   m_Layer: 0
   m_Name: Pressure Plate (75)
   m_TagString: PressurePlate
@@ -9621,6 +9958,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 459098470}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &459098475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459098470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &459952438
 GameObject:
   m_ObjectHideFlags: 0
@@ -9769,6 +10119,7 @@ GameObject:
   - component: {fileID: 462633493}
   - component: {fileID: 462633492}
   - component: {fileID: 462633491}
+  - component: {fileID: 462633494}
   m_Layer: 0
   m_Name: Pressure Plate (102)
   m_TagString: PressurePlate
@@ -9865,6 +10216,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 462633489}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &462633494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462633489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &481869053
 GameObject:
   m_ObjectHideFlags: 0
@@ -10348,6 +10712,7 @@ GameObject:
   - component: {fileID: 494270769}
   - component: {fileID: 494270768}
   - component: {fileID: 494270767}
+  - component: {fileID: 494270770}
   m_Layer: 0
   m_Name: Pressure Plate (74)
   m_TagString: PressurePlate
@@ -10444,6 +10809,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 494270765}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &494270770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494270765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &515559563
 GameObject:
   m_ObjectHideFlags: 0
@@ -10456,6 +10834,7 @@ GameObject:
   - component: {fileID: 515559567}
   - component: {fileID: 515559566}
   - component: {fileID: 515559565}
+  - component: {fileID: 515559568}
   m_Layer: 0
   m_Name: Pressure Plate (20)
   m_TagString: PressurePlate
@@ -10552,6 +10931,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 515559563}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &515559568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515559563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &523593556
 GameObject:
   m_ObjectHideFlags: 0
@@ -10564,6 +10956,7 @@ GameObject:
   - component: {fileID: 523593560}
   - component: {fileID: 523593559}
   - component: {fileID: 523593558}
+  - component: {fileID: 523593561}
   m_Layer: 0
   m_Name: Pressure Plate (26)
   m_TagString: PressurePlate
@@ -10660,6 +11053,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 523593556}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &523593561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 523593556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &529847356
 GameObject:
   m_ObjectHideFlags: 0
@@ -11240,6 +11646,7 @@ GameObject:
   - component: {fileID: 563423547}
   - component: {fileID: 563423546}
   - component: {fileID: 563423545}
+  - component: {fileID: 563423548}
   m_Layer: 0
   m_Name: Pressure Plate (96)
   m_TagString: PressurePlate
@@ -11336,6 +11743,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 563423543}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &563423548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563423543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &572272896
 GameObject:
   m_ObjectHideFlags: 0
@@ -11348,6 +11768,7 @@ GameObject:
   - component: {fileID: 572272900}
   - component: {fileID: 572272899}
   - component: {fileID: 572272898}
+  - component: {fileID: 572272901}
   m_Layer: 0
   m_Name: Pressure Plate (82)
   m_TagString: PressurePlate
@@ -11444,6 +11865,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 572272896}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &572272901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572272896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &579505620
 GameObject:
   m_ObjectHideFlags: 0
@@ -11456,6 +11890,7 @@ GameObject:
   - component: {fileID: 579505624}
   - component: {fileID: 579505623}
   - component: {fileID: 579505622}
+  - component: {fileID: 579505625}
   m_Layer: 0
   m_Name: Pressure Plate (71)
   m_TagString: PressurePlate
@@ -11552,6 +11987,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 579505620}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &579505625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579505620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &584913521
 GameObject:
   m_ObjectHideFlags: 0
@@ -11672,6 +12120,7 @@ GameObject:
   - component: {fileID: 585097629}
   - component: {fileID: 585097628}
   - component: {fileID: 585097627}
+  - component: {fileID: 585097630}
   m_Layer: 0
   m_Name: Pressure Plate (2)
   m_TagString: PressurePlate
@@ -11768,6 +12217,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 585097625}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &585097630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585097625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &585469498
 GameObject:
   m_ObjectHideFlags: 0
@@ -11890,6 +12352,7 @@ GameObject:
   - component: {fileID: 588181445}
   - component: {fileID: 588181444}
   - component: {fileID: 588181443}
+  - component: {fileID: 588181446}
   m_Layer: 0
   m_Name: Pressure Plate (86)
   m_TagString: PressurePlate
@@ -11986,6 +12449,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 588181441}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &588181446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588181441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &591603762
 GameObject:
   m_ObjectHideFlags: 0
@@ -12002,7 +12478,7 @@ GameObject:
   - component: {fileID: 591603768}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12510,6 +12986,7 @@ GameObject:
   - component: {fileID: 635011305}
   - component: {fileID: 635011304}
   - component: {fileID: 635011303}
+  - component: {fileID: 635011306}
   m_Layer: 0
   m_Name: Pressure Plate (45)
   m_TagString: PressurePlate
@@ -12606,6 +13083,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 635011301}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &635011306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 635011301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &644825266
 GameObject:
   m_ObjectHideFlags: 0
@@ -12618,6 +13108,7 @@ GameObject:
   - component: {fileID: 644825270}
   - component: {fileID: 644825269}
   - component: {fileID: 644825268}
+  - component: {fileID: 644825271}
   m_Layer: 0
   m_Name: Pressure Plate (40)
   m_TagString: PressurePlate
@@ -12714,6 +13205,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 644825266}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &644825271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644825266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &648527554
 GameObject:
   m_ObjectHideFlags: 0
@@ -12726,6 +13230,7 @@ GameObject:
   - component: {fileID: 648527558}
   - component: {fileID: 648527557}
   - component: {fileID: 648527556}
+  - component: {fileID: 648527559}
   m_Layer: 0
   m_Name: Pressure Plate (32)
   m_TagString: PressurePlate
@@ -12822,6 +13327,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 648527554}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &648527559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648527554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &651176791
 GameObject:
   m_ObjectHideFlags: 0
@@ -12942,6 +13460,7 @@ GameObject:
   - component: {fileID: 654511589}
   - component: {fileID: 654511588}
   - component: {fileID: 654511587}
+  - component: {fileID: 654511590}
   m_Layer: 0
   m_Name: Pressure Plate (87)
   m_TagString: PressurePlate
@@ -13038,6 +13557,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 654511585}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &654511590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654511585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &665627019
 GameObject:
   m_ObjectHideFlags: 0
@@ -13050,6 +13582,7 @@ GameObject:
   - component: {fileID: 665627023}
   - component: {fileID: 665627022}
   - component: {fileID: 665627021}
+  - component: {fileID: 665627024}
   m_Layer: 0
   m_Name: Pressure Plate (100)
   m_TagString: PressurePlate
@@ -13146,6 +13679,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 665627019}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &665627024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665627019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &680715667
 GameObject:
   m_ObjectHideFlags: 0
@@ -13158,6 +13704,7 @@ GameObject:
   - component: {fileID: 680715671}
   - component: {fileID: 680715670}
   - component: {fileID: 680715669}
+  - component: {fileID: 680715672}
   m_Layer: 0
   m_Name: Pressure Plate (68)
   m_TagString: PressurePlate
@@ -13254,6 +13801,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 680715667}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &680715672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680715667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &683182303
 GameObject:
   m_ObjectHideFlags: 0
@@ -13407,6 +13967,7 @@ GameObject:
   - component: {fileID: 696599322}
   - component: {fileID: 696599321}
   - component: {fileID: 696599320}
+  - component: {fileID: 696599323}
   m_Layer: 0
   m_Name: Pressure Plate (1)
   m_TagString: PressurePlate
@@ -13503,6 +14064,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 696599318}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &696599323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696599318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &697286369
 GameObject:
   m_ObjectHideFlags: 0
@@ -14080,6 +14654,7 @@ GameObject:
   - component: {fileID: 710223852}
   - component: {fileID: 710223851}
   - component: {fileID: 710223850}
+  - component: {fileID: 710223853}
   m_Layer: 0
   m_Name: Pressure Plate (88)
   m_TagString: PressurePlate
@@ -14176,6 +14751,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 710223848}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &710223853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710223848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &711156053
 GameObject:
   m_ObjectHideFlags: 0
@@ -14188,6 +14776,7 @@ GameObject:
   - component: {fileID: 711156057}
   - component: {fileID: 711156056}
   - component: {fileID: 711156055}
+  - component: {fileID: 711156058}
   m_Layer: 0
   m_Name: Pressure Plate (29)
   m_TagString: PressurePlate
@@ -14284,6 +14873,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 711156053}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &711156058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711156053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &712051237
 GameObject:
   m_ObjectHideFlags: 0
@@ -14784,6 +15386,7 @@ GameObject:
   - component: {fileID: 731665942}
   - component: {fileID: 731665941}
   - component: {fileID: 731665940}
+  - component: {fileID: 731665943}
   m_Layer: 0
   m_Name: Pressure Plate (63)
   m_TagString: PressurePlate
@@ -14880,6 +15483,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 731665938}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &731665943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731665938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &734917589
 GameObject:
   m_ObjectHideFlags: 0
@@ -15272,6 +15888,7 @@ GameObject:
   - component: {fileID: 749929261}
   - component: {fileID: 749929260}
   - component: {fileID: 749929259}
+  - component: {fileID: 749929262}
   m_Layer: 0
   m_Name: Pressure Plate (7)
   m_TagString: PressurePlate
@@ -15368,6 +15985,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 749929257}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &749929262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749929257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &750797632
 GameObject:
   m_ObjectHideFlags: 0
@@ -15380,6 +16010,7 @@ GameObject:
   - component: {fileID: 750797636}
   - component: {fileID: 750797635}
   - component: {fileID: 750797634}
+  - component: {fileID: 750797637}
   m_Layer: 0
   m_Name: Pressure Plate (51)
   m_TagString: PressurePlate
@@ -15476,6 +16107,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 750797632}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &750797637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750797632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &751793864
 GameObject:
   m_ObjectHideFlags: 0
@@ -15596,6 +16240,7 @@ GameObject:
   - component: {fileID: 752804338}
   - component: {fileID: 752804337}
   - component: {fileID: 752804336}
+  - component: {fileID: 752804339}
   m_Layer: 0
   m_Name: Pressure Plate (94)
   m_TagString: PressurePlate
@@ -15692,6 +16337,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 752804334}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &752804339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752804334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &757969451
 GameObject:
   m_ObjectHideFlags: 0
@@ -15704,6 +16362,7 @@ GameObject:
   - component: {fileID: 757969455}
   - component: {fileID: 757969454}
   - component: {fileID: 757969453}
+  - component: {fileID: 757969456}
   m_Layer: 0
   m_Name: Pressure Plate (23)
   m_TagString: PressurePlate
@@ -15800,6 +16459,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 757969451}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &757969456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757969451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &762914362
 GameObject:
   m_ObjectHideFlags: 0
@@ -16028,6 +16700,7 @@ GameObject:
   - component: {fileID: 787334194}
   - component: {fileID: 787334193}
   - component: {fileID: 787334192}
+  - component: {fileID: 787334195}
   m_Layer: 0
   m_Name: Pressure Plate (25)
   m_TagString: PressurePlate
@@ -16124,6 +16797,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 787334190}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &787334195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787334190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &787379600
 GameObject:
   m_ObjectHideFlags: 0
@@ -16136,6 +16822,7 @@ GameObject:
   - component: {fileID: 787379604}
   - component: {fileID: 787379603}
   - component: {fileID: 787379602}
+  - component: {fileID: 787379605}
   m_Layer: 0
   m_Name: Pressure Plate (6)
   m_TagString: PressurePlate
@@ -16232,6 +16919,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 787379600}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &787379605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787379600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &790056728
 GameObject:
   m_ObjectHideFlags: 0
@@ -16244,6 +16944,7 @@ GameObject:
   - component: {fileID: 790056732}
   - component: {fileID: 790056731}
   - component: {fileID: 790056730}
+  - component: {fileID: 790056733}
   m_Layer: 0
   m_Name: Pressure Plate (48)
   m_TagString: PressurePlate
@@ -16340,6 +17041,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 790056728}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &790056733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790056728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &791665690
 GameObject:
   m_ObjectHideFlags: 0
@@ -16523,6 +17237,7 @@ GameObject:
   - component: {fileID: 801117491}
   - component: {fileID: 801117490}
   - component: {fileID: 801117489}
+  - component: {fileID: 801117492}
   m_Layer: 0
   m_Name: Pressure Plate (43)
   m_TagString: PressurePlate
@@ -16619,6 +17334,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 801117487}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &801117492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801117487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &814466605
 GameObject:
   m_ObjectHideFlags: 0
@@ -16631,6 +17359,7 @@ GameObject:
   - component: {fileID: 814466609}
   - component: {fileID: 814466608}
   - component: {fileID: 814466607}
+  - component: {fileID: 814466610}
   m_Layer: 0
   m_Name: Pressure Plate (54)
   m_TagString: PressurePlate
@@ -16727,6 +17456,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 814466605}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &814466610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814466605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &816018633
 GameObject:
   m_ObjectHideFlags: 0
@@ -16739,6 +17481,7 @@ GameObject:
   - component: {fileID: 816018637}
   - component: {fileID: 816018636}
   - component: {fileID: 816018635}
+  - component: {fileID: 816018638}
   m_Layer: 0
   m_Name: Pressure Plate (44)
   m_TagString: PressurePlate
@@ -16835,6 +17578,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 816018633}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &816018638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816018633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &824806261
 GameObject:
   m_ObjectHideFlags: 0
@@ -16847,6 +17603,7 @@ GameObject:
   - component: {fileID: 824806265}
   - component: {fileID: 824806264}
   - component: {fileID: 824806263}
+  - component: {fileID: 824806266}
   m_Layer: 0
   m_Name: Pressure Plate (28)
   m_TagString: PressurePlate
@@ -16943,6 +17700,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 824806261}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &824806266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824806261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &826006434
 GameObject:
   m_ObjectHideFlags: 0
@@ -17544,6 +18314,7 @@ GameObject:
   - component: {fileID: 857384789}
   - component: {fileID: 857384788}
   - component: {fileID: 857384787}
+  - component: {fileID: 857384790}
   m_Layer: 0
   m_Name: Pressure Plate (9)
   m_TagString: PressurePlate
@@ -17640,6 +18411,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 857384785}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &857384790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857384785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &863872441
 GameObject:
   m_ObjectHideFlags: 0
@@ -17652,6 +18436,7 @@ GameObject:
   - component: {fileID: 863872445}
   - component: {fileID: 863872444}
   - component: {fileID: 863872443}
+  - component: {fileID: 863872446}
   m_Layer: 0
   m_Name: Pressure Plate (106)
   m_TagString: PressurePlate
@@ -17748,6 +18533,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863872441}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &863872446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863872441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &868742655
 GameObject:
   m_ObjectHideFlags: 0
@@ -18084,6 +18882,7 @@ GameObject:
   - component: {fileID: 893539303}
   - component: {fileID: 893539302}
   - component: {fileID: 893539301}
+  - component: {fileID: 893539304}
   m_Layer: 0
   m_Name: Pressure Plate (16)
   m_TagString: PressurePlate
@@ -18180,6 +18979,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 893539299}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &893539304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893539299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &901127054
 GameObject:
   m_ObjectHideFlags: 0
@@ -18867,6 +19679,7 @@ GameObject:
   - component: {fileID: 949578247}
   - component: {fileID: 949578246}
   - component: {fileID: 949578245}
+  - component: {fileID: 949578248}
   m_Layer: 0
   m_Name: Pressure Plate (14)
   m_TagString: PressurePlate
@@ -18963,6 +19776,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 949578243}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &949578248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 949578243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &951099946
 GameObject:
   m_ObjectHideFlags: 0
@@ -20360,6 +21186,7 @@ GameObject:
   - component: {fileID: 1069423744}
   - component: {fileID: 1069423743}
   - component: {fileID: 1069423742}
+  - component: {fileID: 1069423745}
   m_Layer: 0
   m_Name: Pressure Plate (59)
   m_TagString: PressurePlate
@@ -20456,6 +21283,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1069423740}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1069423745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069423740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1080765846
 GameObject:
   m_ObjectHideFlags: 0
@@ -21036,6 +21876,7 @@ GameObject:
   - component: {fileID: 1102332609}
   - component: {fileID: 1102332608}
   - component: {fileID: 1102332607}
+  - component: {fileID: 1102332610}
   m_Layer: 0
   m_Name: Pressure Plate (61)
   m_TagString: PressurePlate
@@ -21132,6 +21973,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1102332605}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1102332610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102332605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1108623963
 GameObject:
   m_ObjectHideFlags: 0
@@ -21144,6 +21998,7 @@ GameObject:
   - component: {fileID: 1108623967}
   - component: {fileID: 1108623966}
   - component: {fileID: 1108623965}
+  - component: {fileID: 1108623968}
   m_Layer: 0
   m_Name: Pressure Plate (50)
   m_TagString: PressurePlate
@@ -21240,6 +22095,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1108623963}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1108623968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108623963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1110436396
 GameObject:
   m_ObjectHideFlags: 0
@@ -21252,6 +22120,7 @@ GameObject:
   - component: {fileID: 1110436400}
   - component: {fileID: 1110436399}
   - component: {fileID: 1110436398}
+  - component: {fileID: 1110436401}
   m_Layer: 0
   m_Name: Pressure Plate (33)
   m_TagString: PressurePlate
@@ -21348,6 +22217,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1110436396}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1110436401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110436396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1132536896
 GameObject:
   m_ObjectHideFlags: 0
@@ -21820,6 +22702,7 @@ GameObject:
   - component: {fileID: 1153440542}
   - component: {fileID: 1153440541}
   - component: {fileID: 1153440540}
+  - component: {fileID: 1153440543}
   m_Layer: 0
   m_Name: Pressure Plate (49)
   m_TagString: PressurePlate
@@ -21916,6 +22799,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1153440538}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1153440543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153440538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1153919099
 GameObject:
   m_ObjectHideFlags: 0
@@ -21928,6 +22824,7 @@ GameObject:
   - component: {fileID: 1153919103}
   - component: {fileID: 1153919102}
   - component: {fileID: 1153919101}
+  - component: {fileID: 1153919104}
   m_Layer: 0
   m_Name: Pressure Plate (35)
   m_TagString: PressurePlate
@@ -22024,6 +22921,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1153919099}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1153919104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153919099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1153928341
 GameObject:
   m_ObjectHideFlags: 0
@@ -22144,6 +23054,7 @@ GameObject:
   - component: {fileID: 1159532394}
   - component: {fileID: 1159532393}
   - component: {fileID: 1159532392}
+  - component: {fileID: 1159532395}
   m_Layer: 0
   m_Name: Pressure Plate (103)
   m_TagString: PressurePlate
@@ -22240,6 +23151,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1159532390}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1159532395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159532390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1159565611
 GameObject:
   m_ObjectHideFlags: 0
@@ -22479,6 +23403,7 @@ GameObject:
   - component: {fileID: 1163910132}
   - component: {fileID: 1163910131}
   - component: {fileID: 1163910130}
+  - component: {fileID: 1163910133}
   m_Layer: 0
   m_Name: Pressure Plate (12)
   m_TagString: PressurePlate
@@ -22575,6 +23500,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1163910128}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1163910133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163910128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1166397098
 GameObject:
   m_ObjectHideFlags: 0
@@ -23343,6 +24281,7 @@ GameObject:
   - component: {fileID: 1203703571}
   - component: {fileID: 1203703570}
   - component: {fileID: 1203703569}
+  - component: {fileID: 1203703572}
   m_Layer: 0
   m_Name: Pressure Plate (62)
   m_TagString: PressurePlate
@@ -23439,6 +24378,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1203703567}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1203703572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203703567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1207921192
 GameObject:
   m_ObjectHideFlags: 0
@@ -23667,6 +24619,7 @@ GameObject:
   - component: {fileID: 1219002167}
   - component: {fileID: 1219002166}
   - component: {fileID: 1219002165}
+  - component: {fileID: 1219002168}
   m_Layer: 0
   m_Name: Pressure Plate (5)
   m_TagString: PressurePlate
@@ -23763,6 +24716,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1219002163}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1219002168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219002163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1219615981
 GameObject:
   m_ObjectHideFlags: 0
@@ -23991,6 +24957,7 @@ GameObject:
   - component: {fileID: 1231800364}
   - component: {fileID: 1231800363}
   - component: {fileID: 1231800362}
+  - component: {fileID: 1231800365}
   m_Layer: 0
   m_Name: Pressure Plate (84)
   m_TagString: PressurePlate
@@ -24087,6 +25054,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1231800360}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1231800365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231800360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1234697200
 GameObject:
   m_ObjectHideFlags: 0
@@ -24235,6 +25215,7 @@ GameObject:
   - component: {fileID: 1250086139}
   - component: {fileID: 1250086138}
   - component: {fileID: 1250086137}
+  - component: {fileID: 1250086140}
   m_Layer: 0
   m_Name: Pressure Plate (85)
   m_TagString: PressurePlate
@@ -24331,6 +25312,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1250086135}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1250086140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250086135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1253397663
 GameObject:
   m_ObjectHideFlags: 0
@@ -24343,6 +25337,7 @@ GameObject:
   - component: {fileID: 1253397667}
   - component: {fileID: 1253397666}
   - component: {fileID: 1253397665}
+  - component: {fileID: 1253397668}
   m_Layer: 0
   m_Name: Pressure Plate (56)
   m_TagString: PressurePlate
@@ -24439,6 +25434,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1253397663}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1253397668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253397663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1255363065
 GameObject:
   m_ObjectHideFlags: 0
@@ -24451,6 +25459,7 @@ GameObject:
   - component: {fileID: 1255363069}
   - component: {fileID: 1255363068}
   - component: {fileID: 1255363067}
+  - component: {fileID: 1255363070}
   m_Layer: 0
   m_Name: Pressure Plate (77)
   m_TagString: PressurePlate
@@ -24547,6 +25556,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1255363065}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1255363070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255363065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1267310733
 GameObject:
   m_ObjectHideFlags: 0
@@ -24559,6 +25581,7 @@ GameObject:
   - component: {fileID: 1267310737}
   - component: {fileID: 1267310736}
   - component: {fileID: 1267310735}
+  - component: {fileID: 1267310738}
   m_Layer: 0
   m_Name: Pressure Plate (65)
   m_TagString: PressurePlate
@@ -24655,6 +25678,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1267310733}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1267310738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267310733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1268329025
 GameObject:
   m_ObjectHideFlags: 0
@@ -25019,6 +26055,7 @@ GameObject:
   - component: {fileID: 1272881441}
   - component: {fileID: 1272881440}
   - component: {fileID: 1272881439}
+  - component: {fileID: 1272881442}
   m_Layer: 0
   m_Name: Pressure Plate (4)
   m_TagString: PressurePlate
@@ -25115,6 +26152,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1272881437}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1272881442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272881437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1296491589
 GameObject:
   m_ObjectHideFlags: 0
@@ -25371,6 +26421,7 @@ GameObject:
   - component: {fileID: 1299787751}
   - component: {fileID: 1299787750}
   - component: {fileID: 1299787749}
+  - component: {fileID: 1299787752}
   m_Layer: 0
   m_Name: Pressure Plate (73)
   m_TagString: PressurePlate
@@ -25467,6 +26518,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1299787747}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1299787752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299787747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1312284127
 GameObject:
   m_ObjectHideFlags: 0
@@ -26157,6 +27221,7 @@ GameObject:
   - component: {fileID: 1341139029}
   - component: {fileID: 1341139028}
   - component: {fileID: 1341139027}
+  - component: {fileID: 1341139030}
   m_Layer: 0
   m_Name: Pressure Plate (34)
   m_TagString: PressurePlate
@@ -26253,6 +27318,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1341139025}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1341139030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341139025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1351704281
 GameObject:
   m_ObjectHideFlags: 0
@@ -26913,6 +27991,7 @@ GameObject:
   - component: {fileID: 1398964393}
   - component: {fileID: 1398964392}
   - component: {fileID: 1398964391}
+  - component: {fileID: 1398964394}
   m_Layer: 0
   m_Name: Pressure Plate (24)
   m_TagString: PressurePlate
@@ -27009,6 +28088,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1398964389}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1398964394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398964389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1408104630
 GameObject:
   m_ObjectHideFlags: 0
@@ -27021,6 +28113,7 @@ GameObject:
   - component: {fileID: 1408104634}
   - component: {fileID: 1408104633}
   - component: {fileID: 1408104632}
+  - component: {fileID: 1408104635}
   m_Layer: 0
   m_Name: Pressure Plate (72)
   m_TagString: PressurePlate
@@ -27117,6 +28210,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1408104630}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1408104635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1408104630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1410715433
 GameObject:
   m_ObjectHideFlags: 0
@@ -28027,6 +29133,7 @@ GameObject:
   - component: {fileID: 1453833152}
   - component: {fileID: 1453833151}
   - component: {fileID: 1453833150}
+  - component: {fileID: 1453833153}
   m_Layer: 0
   m_Name: Pressure Plate (101)
   m_TagString: PressurePlate
@@ -28123,6 +29230,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1453833148}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1453833153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453833148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1457095374
 GameObject:
   m_ObjectHideFlags: 0
@@ -28745,6 +29865,7 @@ GameObject:
   - component: {fileID: 1503270073}
   - component: {fileID: 1503270072}
   - component: {fileID: 1503270071}
+  - component: {fileID: 1503270074}
   m_Layer: 0
   m_Name: Pressure Plate (21)
   m_TagString: PressurePlate
@@ -28841,6 +29962,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1503270069}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1503270074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503270069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1507626717
 GameObject:
   m_ObjectHideFlags: 0
@@ -28853,6 +29987,7 @@ GameObject:
   - component: {fileID: 1507626721}
   - component: {fileID: 1507626720}
   - component: {fileID: 1507626719}
+  - component: {fileID: 1507626722}
   m_Layer: 0
   m_Name: Pressure Plate (31)
   m_TagString: PressurePlate
@@ -28949,6 +30084,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1507626717}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1507626722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507626717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1521225948
 GameObject:
   m_ObjectHideFlags: 0
@@ -28994,6 +30142,7 @@ GameObject:
   - component: {fileID: 1523862474}
   - component: {fileID: 1523862473}
   - component: {fileID: 1523862472}
+  - component: {fileID: 1523862475}
   m_Layer: 0
   m_Name: Pressure Plate (79)
   m_TagString: PressurePlate
@@ -29090,6 +30239,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1523862470}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1523862475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523862470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1524734966
 GameObject:
   m_ObjectHideFlags: 0
@@ -29210,6 +30372,7 @@ GameObject:
   - component: {fileID: 1530580027}
   - component: {fileID: 1530580026}
   - component: {fileID: 1530580025}
+  - component: {fileID: 1530580028}
   m_Layer: 0
   m_Name: Pressure Plate (91)
   m_TagString: PressurePlate
@@ -29306,6 +30469,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1530580023}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1530580028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530580023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1531725182
 GameObject:
   m_ObjectHideFlags: 0
@@ -29454,6 +30630,7 @@ GameObject:
   - component: {fileID: 1536874766}
   - component: {fileID: 1536874765}
   - component: {fileID: 1536874764}
+  - component: {fileID: 1536874767}
   m_Layer: 0
   m_Name: Pressure Plate (37)
   m_TagString: PressurePlate
@@ -29550,6 +30727,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1536874762}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1536874767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536874762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1560824451
 GameObject:
   m_ObjectHideFlags: 0
@@ -29778,6 +30968,7 @@ GameObject:
   - component: {fileID: 1570428122}
   - component: {fileID: 1570428121}
   - component: {fileID: 1570428120}
+  - component: {fileID: 1570428123}
   m_Layer: 0
   m_Name: Pressure Plate (38)
   m_TagString: PressurePlate
@@ -29874,6 +31065,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1570428118}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1570428123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570428118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1574405581
 GameObject:
   m_ObjectHideFlags: 0
@@ -30022,6 +31226,7 @@ GameObject:
   - component: {fileID: 1581680033}
   - component: {fileID: 1581680032}
   - component: {fileID: 1581680031}
+  - component: {fileID: 1581680034}
   m_Layer: 0
   m_Name: Pressure Plate (19)
   m_TagString: PressurePlate
@@ -30118,6 +31323,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1581680029}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1581680034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581680029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1585457528
 GameObject:
   m_ObjectHideFlags: 0
@@ -30130,6 +31348,7 @@ GameObject:
   - component: {fileID: 1585457532}
   - component: {fileID: 1585457531}
   - component: {fileID: 1585457530}
+  - component: {fileID: 1585457533}
   m_Layer: 0
   m_Name: Pressure Plate (67)
   m_TagString: PressurePlate
@@ -30226,6 +31445,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1585457528}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1585457533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585457528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1592315037
 GameObject:
   m_ObjectHideFlags: 0
@@ -30409,6 +31641,7 @@ GameObject:
   - component: {fileID: 1598182079}
   - component: {fileID: 1598182078}
   - component: {fileID: 1598182077}
+  - component: {fileID: 1598182080}
   m_Layer: 0
   m_Name: Pressure Plate (15)
   m_TagString: PressurePlate
@@ -30505,6 +31738,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1598182075}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1598182080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598182075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1615192189
 GameObject:
   m_ObjectHideFlags: 0
@@ -30733,6 +31979,7 @@ GameObject:
   - component: {fileID: 1627741976}
   - component: {fileID: 1627741975}
   - component: {fileID: 1627741974}
+  - component: {fileID: 1627741977}
   m_Layer: 0
   m_Name: Pressure Plate (46)
   m_TagString: PressurePlate
@@ -30829,6 +32076,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1627741972}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1627741977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627741972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1630299158
 GameObject:
   m_ObjectHideFlags: 0
@@ -30949,6 +32209,7 @@ GameObject:
   - component: {fileID: 1654997264}
   - component: {fileID: 1654997263}
   - component: {fileID: 1654997262}
+  - component: {fileID: 1654997265}
   m_Layer: 0
   m_Name: Pressure Plate (13)
   m_TagString: PressurePlate
@@ -31045,6 +32306,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1654997260}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1654997265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654997260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1655794325
 GameObject:
   m_ObjectHideFlags: 0
@@ -31057,6 +32331,7 @@ GameObject:
   - component: {fileID: 1655794329}
   - component: {fileID: 1655794328}
   - component: {fileID: 1655794327}
+  - component: {fileID: 1655794330}
   m_Layer: 0
   m_Name: Pressure Plate (89)
   m_TagString: PressurePlate
@@ -31153,6 +32428,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1655794325}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1655794330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655794325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1661251836
 GameObject:
   m_ObjectHideFlags: 0
@@ -31165,6 +32453,7 @@ GameObject:
   - component: {fileID: 1661251840}
   - component: {fileID: 1661251839}
   - component: {fileID: 1661251838}
+  - component: {fileID: 1661251841}
   m_Layer: 0
   m_Name: Pressure Plate (57)
   m_TagString: PressurePlate
@@ -31261,6 +32550,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1661251836}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1661251841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661251836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1664070846
 GameObject:
   m_ObjectHideFlags: 0
@@ -31273,6 +32575,7 @@ GameObject:
   - component: {fileID: 1664070850}
   - component: {fileID: 1664070849}
   - component: {fileID: 1664070848}
+  - component: {fileID: 1664070851}
   m_Layer: 0
   m_Name: Pressure Plate (76)
   m_TagString: PressurePlate
@@ -31369,6 +32672,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1664070846}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1664070851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664070846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1664558123
 GameObject:
   m_ObjectHideFlags: 0
@@ -31381,6 +32697,7 @@ GameObject:
   - component: {fileID: 1664558127}
   - component: {fileID: 1664558126}
   - component: {fileID: 1664558125}
+  - component: {fileID: 1664558128}
   m_Layer: 0
   m_Name: Pressure Plate (97)
   m_TagString: PressurePlate
@@ -31477,6 +32794,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1664558123}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1664558128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664558123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1681958397
 GameObject:
   m_ObjectHideFlags: 0
@@ -31625,6 +32955,7 @@ GameObject:
   - component: {fileID: 1685455424}
   - component: {fileID: 1685455423}
   - component: {fileID: 1685455422}
+  - component: {fileID: 1685455425}
   m_Layer: 0
   m_Name: Pressure Plate (42)
   m_TagString: PressurePlate
@@ -31721,6 +33052,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1685455420}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1685455425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685455420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1686894824
 GameObject:
   m_ObjectHideFlags: 0
@@ -32692,6 +34036,7 @@ GameObject:
   - component: {fileID: 1763183032}
   - component: {fileID: 1763183031}
   - component: {fileID: 1763183030}
+  - component: {fileID: 1763183033}
   m_Layer: 0
   m_Name: Pressure Plate (80)
   m_TagString: PressurePlate
@@ -32788,6 +34133,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1763183028}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1763183033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763183028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1764895742
 GameObject:
   m_ObjectHideFlags: 0
@@ -33600,6 +34958,7 @@ GameObject:
   - component: {fileID: 1804659697}
   - component: {fileID: 1804659696}
   - component: {fileID: 1804659695}
+  - component: {fileID: 1804659698}
   m_Layer: 0
   m_Name: Pressure Plate (66)
   m_TagString: PressurePlate
@@ -33696,6 +35055,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1804659693}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1804659698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804659693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1805962164
 GameObject:
   m_ObjectHideFlags: 0
@@ -33708,6 +35080,7 @@ GameObject:
   - component: {fileID: 1805962168}
   - component: {fileID: 1805962167}
   - component: {fileID: 1805962166}
+  - component: {fileID: 1805962169}
   m_Layer: 0
   m_Name: Pressure Plate (105)
   m_TagString: PressurePlate
@@ -33804,6 +35177,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1805962164}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1805962169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805962164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1814400768
 GameObject:
   m_ObjectHideFlags: 0
@@ -34322,7 +35708,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PressurePlateTag: PressurePlate
+  PlayerTag: Player
   changeInterval: 2
+  PlayerOnPressurePlate: 0
 --- !u!1 &1867146233
 GameObject:
   m_ObjectHideFlags: 0
@@ -35270,6 +36658,7 @@ GameObject:
   - component: {fileID: 1946318819}
   - component: {fileID: 1946318818}
   - component: {fileID: 1946318817}
+  - component: {fileID: 1946318820}
   m_Layer: 0
   m_Name: Pressure Plate (18)
   m_TagString: PressurePlate
@@ -35366,6 +36755,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1946318815}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1946318820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946318815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1952798603
 GameObject:
   m_ObjectHideFlags: 0
@@ -35411,6 +36813,7 @@ GameObject:
   - component: {fileID: 1955101206}
   - component: {fileID: 1955101205}
   - component: {fileID: 1955101204}
+  - component: {fileID: 1955101207}
   m_Layer: 0
   m_Name: Pressure Plate (64)
   m_TagString: PressurePlate
@@ -35507,6 +36910,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1955101202}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1955101207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955101202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1955110625
 GameObject:
   m_ObjectHideFlags: 0
@@ -36007,6 +37423,7 @@ GameObject:
   - component: {fileID: 1983428837}
   - component: {fileID: 1983428836}
   - component: {fileID: 1983428835}
+  - component: {fileID: 1983428838}
   m_Layer: 0
   m_Name: Pressure Plate (83)
   m_TagString: PressurePlate
@@ -36103,6 +37520,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1983428833}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1983428838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983428833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1984828304
 GameObject:
   m_ObjectHideFlags: 0
@@ -36115,6 +37545,7 @@ GameObject:
   - component: {fileID: 1984828308}
   - component: {fileID: 1984828307}
   - component: {fileID: 1984828306}
+  - component: {fileID: 1984828309}
   m_Layer: 0
   m_Name: Pressure Plate (53)
   m_TagString: PressurePlate
@@ -36211,6 +37642,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1984828304}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1984828309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984828304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1985556073
 GameObject:
   m_ObjectHideFlags: 0
@@ -36331,6 +37775,7 @@ GameObject:
   - component: {fileID: 1989320230}
   - component: {fileID: 1989320229}
   - component: {fileID: 1989320228}
+  - component: {fileID: 1989320231}
   m_Layer: 0
   m_Name: Pressure Plate (93)
   m_TagString: PressurePlate
@@ -36427,6 +37872,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1989320226}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1989320231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989320226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1990486935
 GameObject:
   m_ObjectHideFlags: 0
@@ -36547,6 +38005,7 @@ GameObject:
   - component: {fileID: 1994123383}
   - component: {fileID: 1994123382}
   - component: {fileID: 1994123381}
+  - component: {fileID: 1994123384}
   m_Layer: 0
   m_Name: Pressure Plate (60)
   m_TagString: PressurePlate
@@ -36643,6 +38102,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1994123379}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1994123384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994123379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &1999316766
 GameObject:
   m_ObjectHideFlags: 0
@@ -38096,6 +39568,7 @@ GameObject:
   - component: {fileID: 2080322567}
   - component: {fileID: 2080322566}
   - component: {fileID: 2080322565}
+  - component: {fileID: 2080322568}
   m_Layer: 0
   m_Name: Pressure Plate (10)
   m_TagString: PressurePlate
@@ -38192,6 +39665,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2080322563}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2080322568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080322563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &2086815538
 GameObject:
   m_ObjectHideFlags: 0
@@ -38390,6 +39876,7 @@ GameObject:
   - component: {fileID: 2109012570}
   - component: {fileID: 2109012569}
   - component: {fileID: 2109012568}
+  - component: {fileID: 2109012571}
   m_Layer: 0
   m_Name: Pressure Plate (17)
   m_TagString: PressurePlate
@@ -38486,6 +39973,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2109012566}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2109012571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109012566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &2114372223
 GameObject:
   m_ObjectHideFlags: 0
@@ -38606,6 +40106,7 @@ GameObject:
   - component: {fileID: 2118569306}
   - component: {fileID: 2118569305}
   - component: {fileID: 2118569304}
+  - component: {fileID: 2118569307}
   m_Layer: 0
   m_Name: Pressure Plate (92)
   m_TagString: PressurePlate
@@ -38702,6 +40203,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2118569302}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2118569307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118569302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &2121977692
 GameObject:
   m_ObjectHideFlags: 0
@@ -38822,6 +40336,7 @@ GameObject:
   - component: {fileID: 2124788932}
   - component: {fileID: 2124788931}
   - component: {fileID: 2124788930}
+  - component: {fileID: 2124788933}
   m_Layer: 0
   m_Name: Pressure Plate (81)
   m_TagString: PressurePlate
@@ -38918,6 +40433,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2124788928}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2124788933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124788928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1 &2143308036
 GameObject:
   m_ObjectHideFlags: 0
@@ -38930,6 +40458,7 @@ GameObject:
   - component: {fileID: 2143308040}
   - component: {fileID: 2143308039}
   - component: {fileID: 2143308038}
+  - component: {fileID: 2143308041}
   m_Layer: 0
   m_Name: Pressure Plate (3)
   m_TagString: PressurePlate
@@ -39026,6 +40555,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2143308036}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2143308041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143308036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a534e95a8bb4f4eba0b973e2db1494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1866023132}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
