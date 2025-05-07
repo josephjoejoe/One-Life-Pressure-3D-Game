@@ -8,7 +8,10 @@ public class OpenDoorButton : MonoBehaviour
     public AudioSource doorOepning;
 
     public bool doorOpen = false;
-    public bool task1Complete = false;
+
+    public AllBoxOffFloor Task1;
+
+    public Renderer buttonRend;
 
     [SerializeField] private string openAnimationName = "DoorOpen";
     [SerializeField] private string closeAnimationName = "DoorClose";
@@ -19,6 +22,7 @@ public class OpenDoorButton : MonoBehaviour
     void Start()
     {
         doorOepning = GetComponent<AudioSource>();
+        buttonRend = GetComponent<Renderer>();
     }
 
     private IEnumerator PauseDoorInteraction()
@@ -30,21 +34,25 @@ public class OpenDoorButton : MonoBehaviour
 
     public void PlayAnimation()
     {
+        if (Task1.taskCompleted == true)
+        {
+            buttonRend.material.color = Color.green;
 
-        if(!doorOpen && !pauseInteraction )
-        {
-            doorAnim.Play(openAnimationName, 0, 0.0f);
-            doorOpen = true;
-            StartCoroutine(PauseDoorInteraction());
-            doorOepning.Play();
-        }
-        else
-        {
-            if (!doorOpen && !pauseInteraction )
+            if (!doorOpen && !pauseInteraction)
             {
-                doorAnim.Play(closeAnimationName, 0, 0.0f);
-                doorOpen = false;
+                doorAnim.Play(openAnimationName, 0, 0.0f);
+                doorOpen = true;
                 StartCoroutine(PauseDoorInteraction());
+                doorOepning.Play();
+            }
+            else
+            {
+                if (!doorOpen && !pauseInteraction)
+                {
+                    doorAnim.Play(closeAnimationName, 0, 0.0f);
+                    doorOpen = false;
+                    StartCoroutine(PauseDoorInteraction());
+                }
             }
         }
 

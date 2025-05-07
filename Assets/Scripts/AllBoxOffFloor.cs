@@ -4,14 +4,21 @@ using System.Collections.Generic;
 public class AllBoxOffFloor : MonoBehaviour
 {
 
-    [SerializeField] public bool allBoxesOff = false;
+    //[SerializeField] public bool allBoxesOff = false;
     public Renderer floorRend;
+    public Renderer button;
 
     public List<GameObject> boxes;
+
+    public bool taskCompleted;
+
+    public OpenDoorButton door;
 
     void Start()
     {
         floorRend = GetComponent<Renderer>();
+        button = GetComponent<Renderer>();
+
     }
 
     void Update()
@@ -19,10 +26,13 @@ public class AllBoxOffFloor : MonoBehaviour
         if (boxes.Count>0 )
         {
             floorRend.material.color = Color.grey;
+            taskCompleted = false;
         }
         else
         {
             floorRend.material.color = Color.green;
+            //door.buttonRend.material.color = Color.green;
+            taskCompleted = true;
         }
     }
 
@@ -59,6 +69,7 @@ public class AllBoxOffFloor : MonoBehaviour
         //{
         //    allBoxesOff = true;
         //}
+
 
 
     }

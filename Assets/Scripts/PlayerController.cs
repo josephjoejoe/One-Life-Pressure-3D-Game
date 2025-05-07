@@ -12,7 +12,6 @@ public class PlayerController : MonoBehaviour
 
 
     //ground check raycast 
-    public bool grounded = false;
     public float groundCheckDistance;
     public Vector3 cubeSize;
 
