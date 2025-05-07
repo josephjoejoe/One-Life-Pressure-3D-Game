@@ -1,9 +1,10 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class WeightPressurePlate : MonoBehaviour
 {
     public string weightPressurePlateTag = "WeightPressurePlate";
-    public string boxTag = "Box";
+    public string boxTag = "WeightBox";
 
     public Renderer weightPressurePlateRenderer;
 
@@ -12,22 +13,23 @@ public class WeightPressurePlate : MonoBehaviour
         weightPressurePlateRenderer = GetComponent<Renderer>();
     }
 
-    void Update()
-    {
-        
-    }
-
     void OnCollisionEnter(Collision collision)
     {
-       if(collision.gameObject.tag.Equals(boxTag))
-        {
+       if(collision.gameObject.tag.Equals("WeightBox"))
+       {
             weightPressurePlateRenderer.material.color = Color.green;
-        }
-        else
-        {
+       }
+       else
+       {
             weightPressurePlateRenderer.material.color = Color.grey;
-
-        }
+       }
     }
 
+    void OnCollisionExit(Collision collision)
+    {
+        if (collision.gameObject.tag.Equals("WeightBox"))
+        {
+            weightPressurePlateRenderer.material.color = Color.grey;
+        }
+    }
 }

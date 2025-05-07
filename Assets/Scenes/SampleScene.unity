@@ -12569,7 +12569,7 @@ Transform:
   m_GameObject: {fileID: 591603762}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.16, z: -1.65}
+  m_LocalPosition: {x: 0, y: 48.01, z: 80.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15512,7 +15512,7 @@ GameObject:
   - component: {fileID: 734917594}
   m_Layer: 7
   m_Name: Box (1)
-  m_TagString: Box
+  m_TagString: WeightBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18206,6 +18206,7 @@ GameObject:
   - component: {fileID: 855219071}
   - component: {fileID: 855219074}
   - component: {fileID: 855219073}
+  - component: {fileID: 855219075}
   - component: {fileID: 855219072}
   m_Layer: 0
   m_Name: Wighted Plate (2)
@@ -18303,6 +18304,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 855219070}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &855219075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 855219070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26fa870db05b64a3f923e0ca47b714bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weightPressurePlateTag: WeightPressurePlate
+  boxTag: Box
+  weightPressurePlateRenderer: {fileID: 855219073}
 --- !u!1 &857384785
 GameObject:
   m_ObjectHideFlags: 0
@@ -21078,6 +21094,7 @@ GameObject:
   - component: {fileID: 1063419845}
   - component: {fileID: 1063419848}
   - component: {fileID: 1063419847}
+  - component: {fileID: 1063419849}
   - component: {fileID: 1063419846}
   m_Layer: 0
   m_Name: Wighted Plate
@@ -21175,6 +21192,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1063419844}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1063419849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063419844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26fa870db05b64a3f923e0ca47b714bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weightPressurePlateTag: WeightPressurePlate
+  boxTag: Box
+  weightPressurePlateRenderer: {fileID: 1063419847}
 --- !u!1 &1069423740
 GameObject:
   m_ObjectHideFlags: 0
@@ -25083,7 +25115,7 @@ GameObject:
   - component: {fileID: 1234697205}
   m_Layer: 7
   m_Name: Box (2)
-  m_TagString: Box
+  m_TagString: WeightBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25707,7 +25739,7 @@ GameObject:
   - component: {fileID: 1268329030}
   m_Layer: 7
   m_Name: Box (3)
-  m_TagString: Box
+  m_TagString: WeightBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28235,6 +28267,7 @@ GameObject:
   - component: {fileID: 1410715434}
   - component: {fileID: 1410715437}
   - component: {fileID: 1410715436}
+  - component: {fileID: 1410715438}
   - component: {fileID: 1410715435}
   m_Layer: 0
   m_Name: Wighted Plate (3)
@@ -28332,6 +28365,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1410715433}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1410715438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410715433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26fa870db05b64a3f923e0ca47b714bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weightPressurePlateTag: WeightPressurePlate
+  boxTag: Box
+  weightPressurePlateRenderer: {fileID: 1410715436}
 --- !u!1 &1411184680
 GameObject:
   m_ObjectHideFlags: 0
@@ -28671,7 +28719,7 @@ GameObject:
   - component: {fileID: 1423434025}
   m_Layer: 7
   m_Name: Box
-  m_TagString: Box
+  m_TagString: WeightBox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38620,6 +38668,7 @@ GameObject:
   - component: {fileID: 2020537125}
   - component: {fileID: 2020537128}
   - component: {fileID: 2020537127}
+  - component: {fileID: 2020537129}
   - component: {fileID: 2020537126}
   m_Layer: 0
   m_Name: Wighted Plate (1)
@@ -38717,6 +38766,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2020537124}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2020537129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020537124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26fa870db05b64a3f923e0ca47b714bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weightPressurePlateTag: WeightPressurePlate
+  boxTag: Box
+  weightPressurePlateRenderer: {fileID: 2020537127}
 --- !u!1 &2031275774
 GameObject:
   m_ObjectHideFlags: 0

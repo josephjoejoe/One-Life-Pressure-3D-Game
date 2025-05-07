@@ -47,9 +47,6 @@ public class PlayerController : MonoBehaviour
         eyes.transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
 
 
-        //groundCheckDistance = 1;
-
-
         if (speed > 0)
         {
             Vector3 vel = Vector3.zero;

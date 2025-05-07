@@ -18,6 +18,7 @@ public class InteractableRaycast : MonoBehaviour
 
     private const string interactableTag = "DoorButton";
     private const string interactableTag1 = "Box";
+    private const string interactableTag2 = "WeightBox";
 
 
 
@@ -31,7 +32,7 @@ public class InteractableRaycast : MonoBehaviour
         //Button Raycast
         if (Physics.Raycast(transform.position, forward, out hit, raylength, mask))
         {
-            if (hit.collider.CompareTag(interactableTag))
+            if (hit.collider.CompareTag(interactableTag) || hit.collider.CompareTag(interactableTag1) || hit.collider.CompareTag(interactableTag2))
             {
                 if (!doOnce)
                 {
@@ -59,28 +60,28 @@ public class InteractableRaycast : MonoBehaviour
         }
 
         //Box Raycast
-        if (Physics.Raycast(transform.position, forward, out hit, raylength, mask))
-        {
-            if (hit.collider.CompareTag(interactableTag1))
-            {
-                if (!doOnce)
-                {
-                    raycastObject1 = hit.collider.gameObject.GetComponent<PickupController>();
-                    CrosshairChange(true);
-                }
+        //if (Physics.Raycast(transform.position, forward, out hit, raylength, mask))
+        //{
+        //    if (hit.collider.CompareTag(interactableTag1))
+        //    {
+        //        if (!doOnce)
+        //        {
+        //            raycastObject1 = hit.collider.gameObject.GetComponent<PickupController>();
+        //            CrosshairChange(true);
+        //        }
 
-                isCrosshairActive = true;
-                doOnce = true;
-            }
-        }
-        else
-        {
-            if (isCrosshairActive)
-            {
-                CrosshairChange(false);
-                doOnce = false;
-            }
-        }
+        //        isCrosshairActive = true;
+        //        doOnce = true;
+        //    }
+        //}
+        //else
+        //{
+        //    if (isCrosshairActive)
+        //    {
+        //        CrosshairChange(false);
+        //        doOnce = false;
+        //    }
+        //}
 
     }
 

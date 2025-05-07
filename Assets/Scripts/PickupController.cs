@@ -54,7 +54,13 @@ public class PickupController : MonoBehaviour
             DropObject();
 
         }
-
+        if (heldObject != null)
+        {
+            if (Input.GetKey(KeyCode.E))
+            {
+                ThrowObject();
+            }
+        }
         if (heldObject != null)
         {
             MoveObject();
