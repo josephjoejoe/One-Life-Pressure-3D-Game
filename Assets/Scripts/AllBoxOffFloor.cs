@@ -16,7 +16,7 @@ public class AllBoxOffFloor : MonoBehaviour
 
     void Update()
     {
-        if (allBoxesOff == false )
+        if (boxes.Count>0 )
         {
             floorRend.material.color = Color.grey;
         }
@@ -29,7 +29,9 @@ public class AllBoxOffFloor : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag.Equals("Box"))
+        {
             boxes.Add(collision.gameObject);
+        }
 
         //if (collision.gameObject.tag.Equals("Box"))
         //{
@@ -46,7 +48,9 @@ public class AllBoxOffFloor : MonoBehaviour
     void OnCollisionExit(Collision collision)
     {
         if (collision.gameObject.tag.Equals("Box"))
+        {
             boxes.Remove(collision.gameObject);
+        }
         //if (collision.gameObject.tag.Equals("Box"))
         //{
         //    allBoxesOff = false;
