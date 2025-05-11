@@ -4,6 +4,7 @@ public class CannonBullet : MonoBehaviour
 {
     public Rigidbody rb;
     public float speed;
+    public Vector3 shootDirection = Vector3.forward;
     public float timer;
 
 
@@ -11,16 +12,16 @@ public class CannonBullet : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        Vector3 direction = transform.position - transform.position;
 
-        rb.linearVelocity = new Vector3(direction.x, direction.y, direction.z).normalized * speed;
+        rb.linearVelocity = shootDirection.normalized * speed;
+
     }
 
     public void Update()
     {
         timer += Time.deltaTime;
 
-        if(timer > 3)
+        if(timer > 4)
         {
             Destroy(gameObject);
         }
