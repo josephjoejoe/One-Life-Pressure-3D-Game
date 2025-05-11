@@ -4111,7 +4111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   floorRend: {fileID: 169935319}
-  button: {fileID: 481869056}
+  buttonRend: {fileID: 481869056}
   boxes: []
   taskCompleted: 0
   door: {fileID: 0}
@@ -12713,7 +12713,7 @@ Transform:
   m_GameObject: {fileID: 591603762}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.18, y: 31.02, z: 52.87}
+  m_LocalPosition: {x: 7.18, y: 16.6, z: 29.21}
   m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -23518,7 +23518,7 @@ MonoBehaviour:
   doorOepning: {fileID: 1159565617}
   doorOpen: 0
   Task1: {fileID: 0}
-  buttonRend: {fileID: 0}
+  buttonRend: {fileID: 442825557}
   openAnimationName: DoorOpen
   closeAnimationName: DoorClose
   waitTimer: 1
@@ -29625,7 +29625,7 @@ MonoBehaviour:
   doorOepning: {fileID: 1457095380}
   doorOpen: 0
   Task1: {fileID: 0}
-  buttonRend: {fileID: 0}
+  buttonRend: {fileID: 1457095377}
   openAnimationName: DoorOpen
   closeAnimationName: DoorClose
   waitTimer: 1
@@ -34746,7 +34746,7 @@ MonoBehaviour:
   doorOepning: {fileID: 1781764209}
   doorOpen: 0
   Task1: {fileID: 0}
-  buttonRend: {fileID: 0}
+  buttonRend: {fileID: 1781764206}
   openAnimationName: DoorOpen
   closeAnimationName: DoorClose
   waitTimer: 1

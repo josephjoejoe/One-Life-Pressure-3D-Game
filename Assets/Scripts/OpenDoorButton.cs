@@ -27,7 +27,15 @@ public class OpenDoorButton : MonoBehaviour
 
     void Update()
     {
-        //buttonRend.material.color = Color.green;
+        if (Task1.taskCompleted == true)
+        {
+
+            buttonRend.material.color = Color.green;
+        }
+        else
+        {
+            buttonRend.material.color = Color.red;
+        }
     }
     private IEnumerator PauseDoorInteraction()
     {

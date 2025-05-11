@@ -6,7 +6,6 @@ public class AllBoxOffFloor : MonoBehaviour
 
     //[SerializeField] public bool allBoxesOff = false;
     public Renderer floorRend;
-    public Renderer button;
 
     public List<GameObject> boxes;
 
@@ -17,8 +16,6 @@ public class AllBoxOffFloor : MonoBehaviour
     void Start()
     {
         floorRend = GetComponent<Renderer>();
-        button = GetComponent<Renderer>();
-
     }
 
     void Update()
@@ -31,7 +28,6 @@ public class AllBoxOffFloor : MonoBehaviour
         else
         {
             floorRend.material.color = Color.green;
-            //door.buttonRend.material.color = Color.green;
             taskCompleted = true;
         }
     }
