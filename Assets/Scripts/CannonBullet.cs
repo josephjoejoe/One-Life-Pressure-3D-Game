@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class CannonBullet : MonoBehaviour
 {
@@ -32,6 +34,7 @@ public class CannonBullet : MonoBehaviour
         if (collision.gameObject.tag.Equals("Player"))
         {
             Destroy(collision.gameObject);
+            SceneManager.LoadScene(1);
         }
     }
 }
