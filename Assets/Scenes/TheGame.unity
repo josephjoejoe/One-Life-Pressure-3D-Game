@@ -4111,7 +4111,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   floorRend: {fileID: 169935319}
-  buttonRend: {fileID: 481869056}
   boxes: []
   taskCompleted: 0
   door: {fileID: 0}
@@ -10452,6 +10451,7 @@ MonoBehaviour:
   doorOepning: {fileID: 481869059}
   doorOpen: 0
   Task1: {fileID: 169935321}
+  Task2: {fileID: 0}
   buttonRend: {fileID: 481869056}
   openAnimationName: DoorOpen
   closeAnimationName: DoorClose
@@ -12713,7 +12713,7 @@ Transform:
   m_GameObject: {fileID: 591603762}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.18, y: 16.6, z: 29.21}
+  m_LocalPosition: {x: 7.18, y: 30.59, z: 31.38}
   m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -23518,6 +23518,7 @@ MonoBehaviour:
   doorOepning: {fileID: 1159565617}
   doorOpen: 0
   Task1: {fileID: 0}
+  Task2: {fileID: 0}
   buttonRend: {fileID: 442825557}
   openAnimationName: DoorOpen
   closeAnimationName: DoorClose
@@ -29625,6 +29626,7 @@ MonoBehaviour:
   doorOepning: {fileID: 1457095380}
   doorOpen: 0
   Task1: {fileID: 0}
+  Task2: {fileID: 0}
   buttonRend: {fileID: 1457095377}
   openAnimationName: DoorOpen
   closeAnimationName: DoorClose
@@ -34745,7 +34747,8 @@ MonoBehaviour:
   doorAnim: {fileID: 442825555}
   doorOepning: {fileID: 1781764209}
   doorOpen: 0
-  Task1: {fileID: 0}
+  Task1: {fileID: 169935321}
+  Task2: {fileID: 1866023132}
   buttonRend: {fileID: 1781764206}
   openAnimationName: DoorOpen
   closeAnimationName: DoorClose
@@ -35970,6 +35973,7 @@ MonoBehaviour:
   PlayerTag: Player
   changeInterval: 5
   PlayerOnPressurePlate: 0
+  taskCompleted: 0
 --- !u!1 &1867146233
 GameObject:
   m_ObjectHideFlags: 0

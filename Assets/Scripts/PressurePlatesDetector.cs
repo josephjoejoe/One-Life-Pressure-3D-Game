@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PressurePlatesDetector : MonoBehaviour
 {
-    public OneRedBoxAtATime controller;
+    public RandomColorPlates controller;
 
     void OnCollisionEnter(Collision collision)
     {

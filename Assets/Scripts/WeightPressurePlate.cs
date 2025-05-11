@@ -6,6 +6,8 @@ public class WeightPressurePlate : MonoBehaviour
     public string weightPressurePlateTag = "WeightPressurePlate";
     public string boxTag = "WeightBox";
 
+    public bool taskCompleted;
+
     public Renderer weightPressurePlateRenderer;
 
     void Start()
@@ -18,10 +20,12 @@ public class WeightPressurePlate : MonoBehaviour
        if(collision.gameObject.tag.Equals("WeightBox"))
        {
             weightPressurePlateRenderer.material.color = Color.green;
+            
        }
        else
        {
             weightPressurePlateRenderer.material.color = Color.grey;
+            
        }
     }
 

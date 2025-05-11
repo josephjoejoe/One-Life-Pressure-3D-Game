@@ -11,6 +11,10 @@ public class OpenDoorButton : MonoBehaviour
 
     public AllBoxOffFloor Task1;
 
+    public RandomColorPlates Task2;
+
+    //public WeightPressurePlate Task3;
+
     public Renderer buttonRend;
 
     [SerializeField] private string openAnimationName = "DoorOpen";
@@ -36,6 +40,17 @@ public class OpenDoorButton : MonoBehaviour
         {
             buttonRend.material.color = Color.red;
         }
+
+        if (Task2.taskCompleted == true)
+        {
+
+            buttonRend.material.color = Color.green;
+        }
+        else
+        {
+            buttonRend.material.color = Color.red;
+        }
+
     }
     private IEnumerator PauseDoorInteraction()
     {
@@ -48,8 +63,6 @@ public class OpenDoorButton : MonoBehaviour
     {
         if (Task1.taskCompleted == true)
         {
-            //buttonRend.material.color = Color.green;
-
             if (!doorOpen && !pauseInteraction)
             {
                 doorAnim.Play(openAnimationName, 0, 0.0f);
@@ -68,6 +81,25 @@ public class OpenDoorButton : MonoBehaviour
             }
         }
 
+        if (Task2.taskCompleted == true)
+        {
+            if (!doorOpen && !pauseInteraction)
+            {
+                doorAnim.Play(openAnimationName, 0, 0.0f);
+                doorOpen = true;
+                StartCoroutine(PauseDoorInteraction());
+                doorOepning.Play();
+            }
+            else
+            {
+                if (!doorOpen && !pauseInteraction)
+                {
+                    doorAnim.Play(closeAnimationName, 0, 0.0f);
+                    doorOpen = false;
+                    StartCoroutine(PauseDoorInteraction());
+                }
+            }
+        }
 
     }
 

@@ -2,13 +2,14 @@ using System.Collections;
 using UnityEngine;
 
 
-public class OneRedBoxAtATime : MonoBehaviour
+public class RandomColorPlates : MonoBehaviour
 {
     public string PressurePlateTag = "PressurePlate";
     public string PlayerTag = "Player";
     public float changeInterval = 1.5f;
 
-    public bool PlayerOnPressurePlate; 
+    public bool PlayerOnPressurePlate;
+    public bool taskCompleted;
 
     private GameObject[] pressurePlate;
     private GameObject currentGreenPlate;
@@ -19,6 +20,8 @@ public class OneRedBoxAtATime : MonoBehaviour
         pressurePlate = GameObject.FindGameObjectsWithTag(PressurePlateTag);
         StartCoroutine(ChangeBoxColorRoutine());
     }
+
+    
 
     IEnumerator ChangeBoxColorRoutine()
     {
@@ -72,6 +75,15 @@ public class OneRedBoxAtATime : MonoBehaviour
         {
             Debug.Log("Player stepped on the green plate!");
             PlayerOnPressurePlate = true;
+        }
+
+        if (PlayerOnPressurePlate == true)
+        {
+            taskCompleted = true;
+        }
+        else
+        {
+            taskCompleted = false;
         }
     }
 }
