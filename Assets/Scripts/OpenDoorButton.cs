@@ -25,6 +25,10 @@ public class OpenDoorButton : MonoBehaviour
         buttonRend = GetComponent<Renderer>();
     }
 
+    void Update()
+    {
+        //buttonRend.material.color = Color.green;
+    }
     private IEnumerator PauseDoorInteraction()
     {
         pauseInteraction = true;
@@ -36,7 +40,7 @@ public class OpenDoorButton : MonoBehaviour
     {
         if (Task1.taskCompleted == true)
         {
-            buttonRend.material.color = Color.green;
+            //buttonRend.material.color = Color.green;
 
             if (!doorOpen && !pauseInteraction)
             {

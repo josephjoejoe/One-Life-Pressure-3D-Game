@@ -4063,10 +4063,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 579025acad9644820baace0cff1b78a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allBoxesOff: 0
   floorRend: {fileID: 169935319}
+  button: {fileID: 481869056}
   boxes: []
   taskCompleted: 0
+  door: {fileID: 0}
 --- !u!1 &173180706
 GameObject:
   m_ObjectHideFlags: 0
@@ -10356,6 +10357,8 @@ MonoBehaviour:
   doorAnim: {fileID: 450073742}
   doorOepning: {fileID: 481869059}
   doorOpen: 0
+  Task1: {fileID: 169935321}
+  buttonRend: {fileID: 481869056}
   openAnimationName: DoorOpen
   closeAnimationName: DoorClose
   waitTimer: 1
@@ -12569,7 +12572,7 @@ Transform:
   m_GameObject: {fileID: 591603762}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 19.9, z: 23.17}
+  m_LocalPosition: {x: 7.18, y: 16.63, z: 24.39}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -19836,6 +19839,7 @@ Transform:
   m_Children:
   - {fileID: 1080765847}
   - {fileID: 585469499}
+  - {fileID: 1066855029}
   m_Father: {fileID: 1443178970}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &958813972
@@ -21206,6 +21210,53 @@ MonoBehaviour:
   weightPressurePlateTag: WeightPressurePlate
   boxTag: Box
   weightPressurePlateRenderer: {fileID: 1063419847}
+--- !u!1 &1066855028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1066855029}
+  - component: {fileID: 1066855030}
+  m_Layer: 0
+  m_Name: BulletPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1066855029
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066855028}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 951099947}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1066855030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066855028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eba997ebc6ff64c78811bd2ca69e7d6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CannonBullet: {fileID: 4156997730334180621, guid: 8b1f87c0ec4bf4498a638cdf80f1141d, type: 3}
+  bulletPos: {fileID: 1066855029}
+  timer: 0
 --- !u!1 &1069423740
 GameObject:
   m_ObjectHideFlags: 0
@@ -23321,6 +23372,8 @@ MonoBehaviour:
   doorAnim: {fileID: 1592315042}
   doorOepning: {fileID: 1159565617}
   doorOpen: 0
+  Task1: {fileID: 0}
+  buttonRend: {fileID: 0}
   openAnimationName: DoorOpen
   closeAnimationName: DoorClose
   waitTimer: 1
@@ -29415,6 +29468,8 @@ MonoBehaviour:
   doorAnim: {fileID: 704979832}
   doorOepning: {fileID: 1457095380}
   doorOpen: 0
+  Task1: {fileID: 0}
+  buttonRend: {fileID: 0}
   openAnimationName: DoorOpen
   closeAnimationName: DoorClose
   waitTimer: 1
@@ -34533,6 +34588,8 @@ MonoBehaviour:
   doorAnim: {fileID: 442825555}
   doorOepning: {fileID: 1781764209}
   doorOpen: 0
+  Task1: {fileID: 0}
+  buttonRend: {fileID: 0}
   openAnimationName: DoorOpen
   closeAnimationName: DoorClose
   waitTimer: 1
@@ -39921,6 +39978,7 @@ Transform:
   - {fileID: 1781764204}
   - {fileID: 442825554}
   - {fileID: 1866023131}
+  - {fileID: 7411679296085227639}
   - {fileID: 1788357347}
   - {fileID: 905028013}
   m_Father: {fileID: 0}
@@ -40629,6 +40687,107 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 1866023132}
+--- !u!1001 &7411679296085227638
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2094503716}
+    m_Modifications:
+    - target: {fileID: 204134152620472202, guid: 8b1f87c0ec4bf4498a638cdf80f1141d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.811
+      objectReference: {fileID: 0}
+    - target: {fileID: 204134152620472202, guid: 8b1f87c0ec4bf4498a638cdf80f1141d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.061
+      objectReference: {fileID: 0}
+    - target: {fileID: 204134152620472202, guid: 8b1f87c0ec4bf4498a638cdf80f1141d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.014
+      objectReference: {fileID: 0}
+    - target: {fileID: 204134152620472202, guid: 8b1f87c0ec4bf4498a638cdf80f1141d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 204134152620472202, guid: 8b1f87c0ec4bf4498a638cdf80f1141d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 204134152620472202, guid: 8b1f87c0ec4bf4498a638cdf80f1141d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 204134152620472202, guid: 8b1f87c0ec4bf4498a638cdf80f1141d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 204134152620472202, guid: 8b1f87c0ec4bf4498a638cdf80f1141d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 204134152620472202, guid: 8b1f87c0ec4bf4498a638cdf80f1141d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 204134152620472202, guid: 8b1f87c0ec4bf4498a638cdf80f1141d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1534853409540887874, guid: 8b1f87c0ec4bf4498a638cdf80f1141d, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4156997730334180621, guid: 8b1f87c0ec4bf4498a638cdf80f1141d, type: 3}
+      propertyPath: m_Name
+      value: CannonBall
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4156997730334180621, guid: 8b1f87c0ec4bf4498a638cdf80f1141d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7411679296085227641}
+  m_SourcePrefab: {fileID: 100100000, guid: 8b1f87c0ec4bf4498a638cdf80f1141d, type: 3}
+--- !u!4 &7411679296085227639 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 204134152620472202, guid: 8b1f87c0ec4bf4498a638cdf80f1141d, type: 3}
+  m_PrefabInstance: {fileID: 7411679296085227638}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7411679296085227640 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4156997730334180621, guid: 8b1f87c0ec4bf4498a638cdf80f1141d, type: 3}
+  m_PrefabInstance: {fileID: 7411679296085227638}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &7411679296085227641
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7411679296085227640}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
