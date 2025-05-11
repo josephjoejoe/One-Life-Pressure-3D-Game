@@ -361,7 +361,7 @@ Transform:
   m_GameObject: {fileID: 10060337}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 0.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4399,7 +4399,7 @@ Transform:
   m_GameObject: {fileID: 184654040}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4417,7 +4417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eba997ebc6ff64c78811bd2ca69e7d6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CannonBullet: {fileID: 4156997730334180621, guid: 8b1f87c0ec4bf4498a638cdf80f1141d, type: 3}
+  CannonBullet: {fileID: 7091261578009859362, guid: d42436a0c90dc4c859f2f7151911c971, type: 3}
   bulletPos: {fileID: 184654041}
   timer: 0
 --- !u!1 &187175757
@@ -11298,7 +11298,7 @@ Transform:
   m_GameObject: {fileID: 533618836}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 0.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14378,7 +14378,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -21381,7 +21381,7 @@ Transform:
   m_GameObject: {fileID: 1066855028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 0.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -27053,7 +27053,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -27248,7 +27248,7 @@ Transform:
   m_GameObject: {fileID: 1320210753}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -27266,7 +27266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eba997ebc6ff64c78811bd2ca69e7d6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CannonBullet: {fileID: 4156997730334180621, guid: 8b1f87c0ec4bf4498a638cdf80f1141d, type: 3}
+  CannonBullet: {fileID: 7091261578009859362, guid: d42436a0c90dc4c859f2f7151911c971, type: 3}
   bulletPos: {fileID: 1320210754}
   timer: 0
 --- !u!1 &1324753530
@@ -36235,7 +36235,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -40038,7 +40038,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
