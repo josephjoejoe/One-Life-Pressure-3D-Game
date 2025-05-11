@@ -31,7 +31,7 @@ public class CannonBullet : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("Player"))
         {
-            Destroy(gameObject);
+            Destroy(collision.gameObject);
         }
     }
 }

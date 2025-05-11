@@ -113,5 +113,4 @@ public class PickupController : MonoBehaviour
         heldObject.transform.parent = null;
         heldObject = null;
     }
-
 }

@@ -381,7 +381,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CannonBullet: {fileID: 4156997730334180621, guid: 8b1f87c0ec4bf4498a638cdf80f1141d, type: 3}
   bulletPos: {fileID: 10060338}
-  timer: 0
+  timer: -3.7
 --- !u!1 &11573039
 GameObject:
   m_ObjectHideFlags: 0
@@ -4419,7 +4419,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CannonBullet: {fileID: 7091261578009859362, guid: d42436a0c90dc4c859f2f7151911c971, type: 3}
   bulletPos: {fileID: 184654041}
-  timer: 0
+  timer: -2
 --- !u!1 &187175757
 GameObject:
   m_ObjectHideFlags: 0
@@ -11318,7 +11318,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CannonBullet: {fileID: 4156997730334180621, guid: 8b1f87c0ec4bf4498a638cdf80f1141d, type: 3}
   bulletPos: {fileID: 533618837}
-  timer: 0
+  timer: -1.5
 --- !u!1 &533777335
 GameObject:
   m_ObjectHideFlags: 0
@@ -12714,7 +12714,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.18, y: 31.02, z: 52.87}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 330585546}
@@ -21401,7 +21401,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CannonBullet: {fileID: 4156997730334180621, guid: 8b1f87c0ec4bf4498a638cdf80f1141d, type: 3}
   bulletPos: {fileID: 1066855029}
-  timer: 0
+  timer: -4
 --- !u!1 &1069423740
 GameObject:
   m_ObjectHideFlags: 0
@@ -27268,7 +27268,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CannonBullet: {fileID: 7091261578009859362, guid: d42436a0c90dc4c859f2f7151911c971, type: 3}
   bulletPos: {fileID: 1320210754}
-  timer: 0
+  timer: -3.5
 --- !u!1 &1324753530
 GameObject:
   m_ObjectHideFlags: 0
@@ -35968,7 +35968,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PressurePlateTag: PressurePlate
   PlayerTag: Player
-  changeInterval: 2
+  changeInterval: 5
   PlayerOnPressurePlate: 0
 --- !u!1 &1867146233
 GameObject:
