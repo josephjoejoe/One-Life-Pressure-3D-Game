@@ -9,6 +9,10 @@ TagManager:
   - PressurePlate
   - WeightBox
   - CannonBall
+  - WeightBox1
+  - WeightBox2
+  - WeightBox3
+  - WeightPressurePlate
   layers:
   - Default
   - TransparentFX

@@ -12713,7 +12713,7 @@ Transform:
   m_GameObject: {fileID: 591603762}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.18, y: 30.59, z: 31.38}
+  m_LocalPosition: {x: -2, y: 49.7, z: 73.08}
   m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15655,7 +15655,7 @@ GameObject:
   - component: {fileID: 734917594}
   m_Layer: 7
   m_Name: Box (1)
-  m_TagString: WeightBox
+  m_TagString: WeightBox1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18353,7 +18353,7 @@ GameObject:
   - component: {fileID: 855219072}
   m_Layer: 0
   m_Name: Wighted Plate (2)
-  m_TagString: Untagged
+  m_TagString: WeightPressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18459,9 +18459,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26fa870db05b64a3f923e0ca47b714bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weightPressurePlateTag: WeightPressurePlate
-  boxTag: Box
+  taskCompleted: 0
+  weightedPlates: []
   weightPressurePlateRenderer: {fileID: 855219073}
+  weightBoxOn: 0
+  weightBoxOn1: 0
+  weightBoxOn2: 0
+  weightBoxOn3: 0
 --- !u!1 &857384785
 GameObject:
   m_ObjectHideFlags: 0
@@ -21246,7 +21250,7 @@ GameObject:
   - component: {fileID: 1063419846}
   m_Layer: 0
   m_Name: Wighted Plate
-  m_TagString: Untagged
+  m_TagString: WeightPressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21352,9 +21356,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26fa870db05b64a3f923e0ca47b714bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weightPressurePlateTag: WeightPressurePlate
-  boxTag: Box
+  taskCompleted: 0
+  weightedPlates: []
   weightPressurePlateRenderer: {fileID: 1063419847}
+  weightBoxOn: 0
+  weightBoxOn1: 0
+  weightBoxOn2: 0
+  weightBoxOn3: 0
 --- !u!1 &1066855028
 GameObject:
   m_ObjectHideFlags: 0
@@ -25312,7 +25320,7 @@ GameObject:
   - component: {fileID: 1234697205}
   m_Layer: 7
   m_Name: Box (2)
-  m_TagString: WeightBox
+  m_TagString: WeightBox2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25936,7 +25944,7 @@ GameObject:
   - component: {fileID: 1268329030}
   m_Layer: 7
   m_Name: Box (3)
-  m_TagString: WeightBox
+  m_TagString: WeightBox3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28515,7 +28523,7 @@ GameObject:
   - component: {fileID: 1410715435}
   m_Layer: 0
   m_Name: Wighted Plate (3)
-  m_TagString: Untagged
+  m_TagString: WeightPressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28621,9 +28629,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26fa870db05b64a3f923e0ca47b714bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weightPressurePlateTag: WeightPressurePlate
-  boxTag: Box
+  taskCompleted: 0
+  weightedPlates: []
   weightPressurePlateRenderer: {fileID: 1410715436}
+  weightBoxOn: 0
+  weightBoxOn1: 0
+  weightBoxOn2: 0
+  weightBoxOn3: 0
 --- !u!1 &1411184680
 GameObject:
   m_ObjectHideFlags: 0
@@ -29625,8 +29637,8 @@ MonoBehaviour:
   doorAnim: {fileID: 704979832}
   doorOepning: {fileID: 1457095380}
   doorOpen: 0
-  Task1: {fileID: 0}
-  Task2: {fileID: 0}
+  Task1: {fileID: 169935321}
+  Task2: {fileID: 1866023132}
   buttonRend: {fileID: 1457095377}
   openAnimationName: DoorOpen
   closeAnimationName: DoorClose
@@ -38888,7 +38900,7 @@ GameObject:
   - component: {fileID: 2020537126}
   m_Layer: 0
   m_Name: Wighted Plate (1)
-  m_TagString: Untagged
+  m_TagString: WeightPressurePlate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38994,9 +39006,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26fa870db05b64a3f923e0ca47b714bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weightPressurePlateTag: WeightPressurePlate
-  boxTag: Box
+  taskCompleted: 0
+  weightedPlates: []
   weightPressurePlateRenderer: {fileID: 2020537127}
+  weightBoxOn: 0
+  weightBoxOn1: 0
+  weightBoxOn2: 0
+  weightBoxOn3: 0
 --- !u!1 &2031275774
 GameObject:
   m_ObjectHideFlags: 0
