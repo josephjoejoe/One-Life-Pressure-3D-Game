@@ -4,7 +4,6 @@ using System.Collections.Generic;
 public class AllBoxOffFloor : MonoBehaviour
 {
 
-    //[SerializeField] public bool allBoxesOff = false;
     public Renderer floorRend;
 
     public List<GameObject> boxes;

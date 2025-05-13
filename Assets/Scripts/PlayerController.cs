@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -105,5 +106,13 @@ public class PlayerController : MonoBehaviour
         Gizmos.DrawWireCube(transform.position - transform.up * groundCheckDistance, cubeSize);
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag.Equals("OutOfBounce"))
+        {
+            Destroy(gameObject);
+            SceneManager.LoadScene(1);
+        }
+    }
 
 }

@@ -13,6 +13,7 @@ TagManager:
   - WeightBox2
   - WeightBox3
   - WeightPressurePlate
+  - OutOfBounce
   layers:
   - Default
   - TransparentFX
