@@ -9,6 +9,8 @@ public class OpenDoorButton : MonoBehaviour
 
     public bool doorOpen = false;
 
+    public AllBoxOnOnePlate task; 
+
     public AllBoxOffFloor Task1;
 
     public RandomColorPlates Task2;
@@ -31,6 +33,15 @@ public class OpenDoorButton : MonoBehaviour
 
     void Update()
     {
+        if(task.taskComplete == true)
+        {
+            buttonRend.material.color = Color.green;
+        }
+        else
+        {
+            buttonRend.material.color = Color.red;
+        }
+
         if (Task1.taskCompleted == true)
         {
 
@@ -61,6 +72,26 @@ public class OpenDoorButton : MonoBehaviour
 
     public void PlayAnimation()
     {
+        if (task.taskComplete == true)
+        {
+            if (!doorOpen && !pauseInteraction)
+            {
+                doorAnim.Play(openAnimationName, 0, 0.0f);
+                doorOpen = true;
+                StartCoroutine(PauseDoorInteraction());
+                doorOepning.Play();
+            }
+            else
+            {
+                if (!doorOpen && !pauseInteraction)
+                {
+                    doorAnim.Play(closeAnimationName, 0, 0.0f);
+                    doorOpen = false;
+                    StartCoroutine(PauseDoorInteraction());
+                }
+            }
+        }
+
         if (Task1.taskCompleted == true)
         {
             if (!doorOpen && !pauseInteraction)

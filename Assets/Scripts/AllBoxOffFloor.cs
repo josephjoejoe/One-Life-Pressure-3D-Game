@@ -10,8 +10,6 @@ public class AllBoxOffFloor : MonoBehaviour
 
     public bool taskCompleted;
 
-    public OpenDoorButton door;
-
     void Start()
     {
         floorRend = GetComponent<Renderer>();

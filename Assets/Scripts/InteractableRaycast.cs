@@ -9,6 +9,7 @@ public class InteractableRaycast : MonoBehaviour
 
     private OpenDoorButton raycastObject;
     private PickupController raycastObject1;
+    private OpenDoorButton1 raycastObject2;
 
     [SerializeField] private KeyCode openDoorKey = KeyCode.Mouse0;
 
@@ -40,12 +41,23 @@ public class InteractableRaycast : MonoBehaviour
                     CrosshairChange(true);
                 }
 
+                if (!doOnce)
+                {
+                    raycastObject2 = hit.collider.gameObject.GetComponent<OpenDoorButton1>();
+                    CrosshairChange(true);
+                }
+
                 isCrosshairActive = true;
                 doOnce = true;
 
                 if (Input.GetKeyDown(openDoorKey))
                 {
                     raycastObject.PlayAnimation();
+                }
+
+                if (Input.GetKeyDown(openDoorKey))
+                {
+                    raycastObject2.PlayAnimation();
                 }
 
             }
