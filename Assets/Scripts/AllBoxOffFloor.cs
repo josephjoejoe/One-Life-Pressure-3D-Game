@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 public class AllBoxOffFloor : MonoBehaviour
 {
+    public AudioSource buttonReady;
 
     public Renderer floorRend;
 
@@ -13,6 +14,7 @@ public class AllBoxOffFloor : MonoBehaviour
     void Start()
     {
         floorRend = GetComponent<Renderer>();
+        buttonReady = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -26,6 +28,7 @@ public class AllBoxOffFloor : MonoBehaviour
         {
             floorRend.material.color = Color.green;
             taskCompleted = true;
+            buttonReady.Play();
         }
     }
 

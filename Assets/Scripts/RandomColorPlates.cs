@@ -15,10 +15,13 @@ public class RandomColorPlates : MonoBehaviour
     private GameObject currentGreenPlate;
     private Color originalColor;
 
+    public AudioSource buttonReady;
+
     void Start()
     {
         pressurePlate = GameObject.FindGameObjectsWithTag(PressurePlateTag);
         StartCoroutine(ChangeBoxColorRoutine());
+        buttonReady = GetComponent<AudioSource>();
     }
 
     
@@ -75,6 +78,8 @@ public class RandomColorPlates : MonoBehaviour
         {
             Debug.Log("Player stepped on the green plate!");
             PlayerOnPressurePlate = true;
+            buttonReady.Play();
+
         }
 
         if (PlayerOnPressurePlate == true)
