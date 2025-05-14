@@ -7,7 +7,12 @@ public class CannonShoot : MonoBehaviour
 
     public float timer;
 
+    public AudioSource cannonSound;
 
+    private void Start()
+    {
+        cannonSound = GetComponent<AudioSource>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -24,5 +29,6 @@ public class CannonShoot : MonoBehaviour
     void shoot()
     {
         Instantiate(CannonBullet, bulletPos.position, Quaternion.identity);
+        cannonSound.Play();
     }
 }
