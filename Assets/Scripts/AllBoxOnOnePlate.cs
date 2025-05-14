@@ -9,10 +9,12 @@ public class AllBoxOnOnePlate : MonoBehaviour
 
     public Renderer longPlateRend;
 
+    public AudioSource buttonReady;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         longPlateRend = GetComponent<Renderer>();
+        buttonReady = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -22,6 +24,7 @@ public class AllBoxOnOnePlate : MonoBehaviour
         {
             taskComplete = true;
             longPlateRend.material.color = Color.green;
+            buttonReady.Play();
         }
         else
         {
