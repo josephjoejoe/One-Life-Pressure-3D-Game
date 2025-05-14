@@ -405,7 +405,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.1
   MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
@@ -441,7 +441,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.9
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -456,7 +456,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.46388888
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -4914,7 +4914,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.1
   MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
@@ -4950,7 +4950,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.9
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -4965,7 +4965,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.46388888
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -9742,7 +9742,6 @@ GameObject:
   - component: {fileID: 424014218}
   - component: {fileID: 424014217}
   - component: {fileID: 424014216}
-  - component: {fileID: 424014215}
   m_Layer: 0
   m_Name: OutOfBounce (4)
   m_TagString: OutOfBounce
@@ -9765,18 +9764,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 957224335}
   m_LocalEulerAnglesHint: {x: -32.864, y: 0, z: 0}
---- !u!114 &424014215
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 424014213}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e90d9a08b9d79478e8d3b92c68fd04b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &424014216
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11793,7 +11780,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.1
   MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
@@ -11829,7 +11816,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.9
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -11844,7 +11831,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.46388888
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -13497,7 +13484,7 @@ Transform:
   m_GameObject: {fileID: 591603762}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.3, y: 1.84, z: -4.9}
+  m_LocalPosition: {x: 0.3, y: 1.46, z: -2.51}
   m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13563,8 +13550,8 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 3d83660bc40614a9093ab28f17cdf050, type: 3}
   m_Resource: {fileID: 8300000, guid: 3d83660bc40614a9093ab28f17cdf050, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.8
-  m_Pitch: 1
+  m_Volume: 0.45
+  m_Pitch: 0.7
   Loop: 1
   Mute: 0
   Spatialize: 0
@@ -13607,7 +13594,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.5
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -21253,7 +21240,6 @@ GameObject:
   - component: {fileID: 937773876}
   - component: {fileID: 937773875}
   - component: {fileID: 937773874}
-  - component: {fileID: 937773873}
   m_Layer: 0
   m_Name: OutOfBounce (6)
   m_TagString: OutOfBounce
@@ -21276,18 +21262,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 957224335}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &937773873
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 937773871}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e90d9a08b9d79478e8d3b92c68fd04b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &937773874
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23141,7 +23115,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.1
   MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
@@ -23177,7 +23151,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.9
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -23192,7 +23166,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.46388888
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -23629,7 +23603,6 @@ GameObject:
   - component: {fileID: 1083706665}
   - component: {fileID: 1083706664}
   - component: {fileID: 1083706663}
-  - component: {fileID: 1083706662}
   m_Layer: 0
   m_Name: OutOfBounce (5)
   m_TagString: OutOfBounce
@@ -23652,18 +23625,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 957224335}
   m_LocalEulerAnglesHint: {x: -45.296, y: 0, z: 0}
---- !u!114 &1083706662
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1083706660}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e90d9a08b9d79478e8d3b92c68fd04b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1083706663
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29101,7 +29062,6 @@ GameObject:
   - component: {fileID: 1301262420}
   - component: {fileID: 1301262419}
   - component: {fileID: 1301262418}
-  - component: {fileID: 1301262417}
   m_Layer: 0
   m_Name: OutOfBounce (2)
   m_TagString: OutOfBounce
@@ -29124,18 +29084,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 957224335}
   m_LocalEulerAnglesHint: {x: -34.822, y: 0, z: 0}
---- !u!114 &1301262417
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1301262415}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e90d9a08b9d79478e8d3b92c68fd04b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1301262418
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29284,7 +29232,6 @@ GameObject:
   - component: {fileID: 1308521980}
   - component: {fileID: 1308521979}
   - component: {fileID: 1308521978}
-  - component: {fileID: 1308521977}
   m_Layer: 0
   m_Name: OutOfBounce (1)
   m_TagString: OutOfBounce
@@ -29307,18 +29254,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 957224335}
   m_LocalEulerAnglesHint: {x: -34.822, y: 0, z: 0}
---- !u!114 &1308521977
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1308521975}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e90d9a08b9d79478e8d3b92c68fd04b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1308521978
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29679,7 +29614,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 0.1
   MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
@@ -29715,7 +29650,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.9
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -29730,7 +29665,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.46388888
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -30213,7 +30148,6 @@ GameObject:
   - component: {fileID: 1353594187}
   - component: {fileID: 1353594186}
   - component: {fileID: 1353594185}
-  - component: {fileID: 1353594184}
   m_Layer: 0
   m_Name: OutOfBounce (3)
   m_TagString: OutOfBounce
@@ -30236,18 +30170,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 957224335}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1353594184
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1353594182}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e90d9a08b9d79478e8d3b92c68fd04b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1353594185
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30736,7 +30658,6 @@ GameObject:
   - component: {fileID: 1392881386}
   - component: {fileID: 1392881385}
   - component: {fileID: 1392881384}
-  - component: {fileID: 1392881388}
   m_Layer: 0
   m_Name: OutOfBounce
   m_TagString: OutOfBounce
@@ -30833,18 +30754,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 957224335}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1392881388
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1392881383}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e90d9a08b9d79478e8d3b92c68fd04b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1394237271
 GameObject:
   m_ObjectHideFlags: 0
