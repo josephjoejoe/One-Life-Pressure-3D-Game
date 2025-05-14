@@ -113,6 +113,12 @@ public class PlayerController : MonoBehaviour
             Destroy(gameObject);
             SceneManager.LoadScene(1);
         }
+
+        if (collision.gameObject.tag.Equals("Lava"))
+        {
+            Destroy(gameObject);
+            SceneManager.LoadScene(1);
+        }
     }
 
 }
